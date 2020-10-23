@@ -1,0 +1,22 @@
+CAMPAIGN:Plane-Hopper's Handbook
+KEY:Paizo Publishing ~ Plane-Hopper's Handbook
+
+BOOKTYPE:Supplement
+GAMEMODE:Pathfinder
+STATUS:BETA
+GENRE:Fantasy
+TYPE:Paizo Publishing.Plane-Hopper's Handbook
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+
+PUBNAMELONG:Paizo Inc.
+PUBNAMESHORT:Paizo
+SOURCELONG:Pathfinder Player Companion: Plane-Hopper's Handbook
+SOURCESHORT:PHH
+
+#COVER:
+#DESC:
+
+#COPYRIGHT:
+#COPYRIGHT:PCGen dataset conversion for "Orac1e‘s Curse" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).
+
+ABILITY:phh_abilities_class.lst

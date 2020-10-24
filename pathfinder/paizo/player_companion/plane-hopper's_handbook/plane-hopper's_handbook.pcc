@@ -13,10 +13,14 @@ PUBNAMESHORT:Paizo
 SOURCELONG:Pathfinder Player Companion: Plane-Hopper's Handbook
 SOURCESHORT:PHH
 
-#COVER:
-#DESC:
+COVER:plane-hopper's_handbook.jpg
+DESC:Step beyond reality as we know it! Pathfinder Player Companion: Plane-Hopper's Handbook offers new tools for explorers brave enough to venture into the unknown—whether to abandoned cities created by dead gods, worlds where the ground is made of forsaken souls, or even stranger realms. Add planar allies, magic, or heritage to your adventures and infuse them with the power of the planes!
 
-#COPYRIGHT:
-#COPYRIGHT:PCGen dataset conversion for "Orac1e‘s Curse" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Dark Stalker from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth.
+COPYRIGHT:Demon, Nabasu from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Player Companion: Plane-Hopper’s Handbook Copyright 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer.
+COPYRIGHT:PCGen dataset conversion for "Plane-Hopper's Handbook" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).
 
 ABILITY:phh_abilities_class.lst

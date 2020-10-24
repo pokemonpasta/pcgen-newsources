@@ -32,6 +32,14 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 15 COPYRIGHT NOTICE
 
+Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
+System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
 
-PCGen dataset conversion for "Orac1e‘s Curse" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).
+Dark Stalker from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth.
+
+Demon, Nabasu from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+
+Pathfinder Player Companion: Plane-Hopper’s Handbook Copyright 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer.
+
+PCGen dataset conversion for "Plane-Hopper's Handbook" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).

@@ -7,6 +7,7 @@ STATUS:BETA
 GENRE:Fantasy
 TYPE:Paizo Publishing.Plane-Hopper's Handbook
 PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PRECAMPAIGN:1,INCLUDES=Ultimate Combat
 
 PUBNAMELONG:Paizo Inc.
 PUBNAMESHORT:Paizo

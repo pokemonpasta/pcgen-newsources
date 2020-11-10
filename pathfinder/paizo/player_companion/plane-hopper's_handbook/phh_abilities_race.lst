@@ -1,0 +1,25 @@
+SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
+
+# =============================
+# Alternate Elemental Heritages
+# =============================
+
+###Block: Oread
+Gemsoul				KEY:Oread Racial Subtype ~ Gemsoul			CATEGORY:Special Ability	TYPE:Oread Racial Subtype.SpecialQuality	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Oread Racial Subtype ~ Gemsoul],[!PREFACT:1,ABILITIES,Halfling_ReplaceKeenSenses=true,Halfling_ReplaceHalflingLuck=true,Halfling_ReplaceSureFooted=true]															DESC:Unlike most halflings, members of this subtype actively look for trouble in their quest to avenge slights and wrongdoings. Whether resisting a local bully, monster, or troops of an oppressive ruler, halfling warriors of this secret subculture don masks and strike back on behalf of their community. These halflings have the low blow, underfoot, and warslinger alternate racial traits.																																												TEMPLATE:Avenging			ABILITY:Halfling Racial Trait|NORMAL|Halfling ~ Low Blow|Halfling ~ Underfoot|Halfling ~ Warslinger			SOURCEPAGE:p.62
+Ironsoul
+
+###Block: Ifrit
+Lavasoul
+Sunsoul
+
+###Block: Sylph
+Smokesoul
+Stormsoul
+
+###Block: Undine
+Mistsoul
+Rimesoul
+
+# ==========================
+# Alternate Racial Abilities
+# ==========================

@@ -53,3 +53,18 @@ Smoke Affinity			KEY:Smokesoul Sylph ~ Smoke Affinity			CATEGORY:Special Ability
 #Stormsoul
 Spell-Like Ability		KEY:Stormsoul Sylph ~ Spell-Like Ability		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.SylphRacialTrait		PREABILITY:1,CATEGORY=Special Ability,Sylph Racial Subtype ~ Stormsoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Stormsoul Sylph ~ Spell-Like Ability],[!PREFACT:1,ABILITIES,Sylph_ReplaceSpellLikeAbility=true]			DEFINE:SylphSLATimes|0	SPELLS:Innate|TIMES=SylphSLATimes|CASTERLEVEL=TL|Shocking Grasp		DESC:Shocking Grasp %1/day.|SylphSLATimes																											BONUS:VAR|SylphSLATimes|1				SOURCEPAGE:p.21
 Lightning Affinity		KEY:Stormsoul Sylph ~ Lightning Affinity		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.SylphRacialTrait		PREABILITY:1,CATEGORY=Special Ability,Sylph Racial Subtype ~ Stormsoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Stormsoul Sylph ~ Lightning Affinity],[!PREFACT:1,ABILITIES,Sylph_ReplaceAirAffinity=true]					DESC:Sylph sorcerers with the stormborn bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Sylph spellcasters with the Weather domain use their domain powers and spells at +1 caster level.											SOURCEPAGE:p.21
+
+###Block: Undine Alternate Racial Traits
+#Mistsoul
+Spell-Like Ability		KEY:Mistsoul Undine ~ Spell-Like Ability		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.UndineRacialTrait	PREABILITY:1,CATEGORY=Special Ability,Undine Racial Subtype ~ Mistsoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Mistsoul Undine ~ Spell-Like Ability],[!PREFACT:1,ABILITIES,Undine_ReplaceSpellLikeAbility=true]			DEFINE:UndineSLATimes|0	SPELLS:Innate|TIMES=UndineSLATimes|CASTERLEVEL=TL|Obscuring Mist	DESC:Obscuring Mist %1/day.|UndineSLATimes																											BONUS:VAR|UndineSLATimes|1				SOURCEPAGE:p.21
+Mist Affinity			KEY:Mistsoul Undine ~ Mist Affinity				CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.UndineRacialTrait	PREABILITY:1,CATEGORY=Special Ability,Undine Racial Subtype ~ Mistsoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Mistsoul Undine ~ Mist Affinity],[!PREFACT:1,ABILITIES,Undine_ReplaceWaterAffinity=true]					DESC:Undine sorcerers with the dreamspun bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Sylph spellcasters with the Repose domain use their domain powers and spells at +1 caster level.											SOURCEPAGE:p.21
+#Rimsoul
+Spell-Like Ability		KEY:Rimesoul Undine ~ Spell-Like Ability		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.UndineRacialTrait	PREABILITY:1,CATEGORY=Special Ability,Undine Racial Subtype ~ Rimesoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Rimesoul Undine ~ Spell-Like Ability],[!PREFACT:1,ABILITIES,Undine_ReplaceSpellLikeAbility=true]			DEFINE:UndineSLATimes|0	SPELLS:Innate|TIMES=UndineSLATimes|CASTERLEVEL=TL|Chill Touch		DESC:Chill Touch %1/day.|UndineSLATimes																												BONUS:VAR|UndineSLATimes|1				SOURCEPAGE:p.21
+Ice Affinity			KEY:Rimesoul Undine ~ Ice Affinity				CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.UndineRacialTrait	PREABILITY:1,CATEGORY=Special Ability,Undine Racial Subtype ~ Rimesoul	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Rimesoul Undine ~ Ice Affinity],[!PREFACT:1,ABILITIES,Undine_ReplaceWaterAffinity=true]					DESC:Undine sorcerers with the boreal bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Sylph spellcasters with the Ice domain use their domain powers and spells at +1 caster level.												SOURCEPAGE:p.21
+
+
+
+
+
+
+

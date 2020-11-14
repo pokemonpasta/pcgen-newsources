@@ -75,8 +75,12 @@ CATEGORY:Special Ability|Aphorite ~ Aphorite Resistances.MOD				PREABILITY:1,CAT
 Urban Memories			KEY:Aphorite ~ Urban Memories						CATEGORY:Special Ability	TYPE:RacialTraits.Aphorite Racial Trait.SpecialQuality				PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Urban Memories],[!PREFACT:1,ABILITIES,Aphorite_ReplaceAphoriteSpellLikeAbility=true]																					DESC:With vague memories of the Perfect City resting somewhere deep in their minds, aphorites with this racial trait gain a +2 racial bonus on Knowledge (local) checks and can cast urban grace once per day as a spell-like ability (caster level %1).|(TL)																																																																	DESC:This racial trait replaces the spell-like ability racial trait.|!PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Urban Memories		BONUS:SKILL|Knowledge (local)|2|TYPE=Racial			ABILITY:Aphorite Racial Trait|NORMAL|Aphorite Urban Memories ~ Spell-Like Ability			COST:0	SOURCEPAGE:p.14		FACT:Aphorite_ReplaceSpellLikeAbility|true
 Spell-Like Ability		KEY:Aphorite Urban Memories ~ Spell-Like Ability	CATEGORY:Special Ability	TYPE:RacialTraits.Aphorite Racial Trait.SpecialQuality				PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Urban Memories																																										DEFINE:AphoriteSLATimes|0	SPELLS:Innate|TIMES=AphoriteSLATimes|CASTERLEVEL=TL|Urban Grace		DESC:Urban Grace %1/day.|AphoriteSLATimes			BONUS:VAR|AphoriteSLATimes|1
 
+# =====================
+# Favored Class Options
+# =====================
 
-
+###Block: Aphorite
+Bonus Alchemist Splash Weapon Range Increment				KEY:Favored Class Bonus ~ Alchemist ~ Aphorite	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassAlchemist		PRECLASS:1,Alchemist=1		PRERACE:1,Aphorite,RACESUBTYPE=Aphorite	DESC:Alchemist: Add 1 foot to the range increment of the alchemist’s thrown splash weapons (including the alchemist’s bombs). This option has no effect unless the alchemist has selected it 5 times (or another increment of 5).											STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
 
 
 

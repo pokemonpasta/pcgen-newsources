@@ -80,7 +80,23 @@ Spell-Like Ability		KEY:Aphorite Urban Memories ~ Spell-Like Ability	CATEGORY:Sp
 # =====================
 
 ###Block: Aphorite
-Bonus Alchemist Splash Weapon Range Increment				KEY:Favored Class Bonus ~ Alchemist ~ Aphorite	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassAlchemist		PRECLASS:1,Alchemist=1		PRERACE:1,Aphorite,RACESUBTYPE=Aphorite	DESC:Alchemist: Add 1 foot to the range increment of the alchemist’s thrown splash weapons (including the alchemist’s bombs). This option has no effect unless the alchemist has selected it 5 times (or another increment of 5).											STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Alchemist
+Bonus Alchemist Splash Weapon Range Increment				KEY:Favored Class Bonus ~ Alchemist ~ Aphorite							CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassAlchemist				VISIBLE:YES			PRECLASS:1,Alchemist=1		PRERACE:1,Aphorite	DESC:Add 1 foot to the range increment of the alchemist’s thrown splash weapons (including the alchemist’s bombs). This option has no effect unless the alchemist has selected it 5 times (or another increment of 5).																			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Cleric
+Bonus Skills (Axis & Creatures With Lawful Subtype)			KEY:Favored Class Bonus ~ Cleric ~ Aphorite								CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassCleric				VISIBLE:YES			PRECLASS:1,Cleric=1			PRERACE:1,Aphorite	DESC:Add a +1/2 bonus on Knowledge (planes) checks relating to Axis and creatures with the lawful subtype.		DEFINE:BonusClericSkillAphorite|0	BONUS:SITUATION|Knowledge (Planes)=Axis & Creatures with Lawful Subtype|BonusClericSkillAphorite/2	BONUS:VAR|BonusClericSkillAphorite|1	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Fighter
+Bonus CMD (Disarm & Trip)									KEY:Favored Class Bonus ~ Fighter ~ Aphorite							CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassFighter				VISIBLE:YES			PRECLASS:1,Fighter=1		PRERACE:1,Aphorite	DESC:Add +1 to the Aphorite's CMD when resisting a disarm or trip attempt.																			BONUS:VAR|CMD_Disarm|1	BONUS:VAR|CMD_Trip|1																								STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Investigator
+Bonus Studied Combat Critical Damage						KEY:Favored Class Bonus ~ Investigator ~ Aphorite						CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInvestigator			VISIBLE:YES			PRECLASS:1,Investigator=1	PRERACE:1,Aphorite	DESC:Gain a +1/4 bonus on damage rolls for critical hits made while using studied combat.																																																		STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Inquisitor
+Bonus Change Teamwork Times									KEY:Favored Class Bonus ~ Inquisitor ~ Aphorite							CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInquisitor			VISIBLE:YES			PRECLASS:1,Inquisitor=1		PRERACE:1,Aphorite	DESC:Add 1/4 to the number of times per day the inquisitor can change her most recent teamwork feat.																																															STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+#Magus (Not sure how to do this. Come back to it)
+Bonus Magus Spell											KEY:Favored Class Bonus ~ Magus ~ Aphorite								CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMagus					VISIBLE:YES			PRECLASS:1,Magus=1			PRERACE:1,Aphorite	DESC:Add one spell from the magus spell list to the magus’s spellbook. This spell must be at least 1 level below the highest spell level he can cast.																																			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+
+
+
+
+
 
 
 

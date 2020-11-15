@@ -1,3 +1,4 @@
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
-Linguistics.MOD		PREABILITY:1,CATEGORY:Special Ability,Aphorite ~ Planar Envoy		SELECT:.CLEAR	SELECT:2
+Knowledge (Planes).MOD		SITUATION:Axis & Creatures with Lawful Subtype
+Linguistics.MOD				PREABILITY:1,CATEGORY:Special Ability,Aphorite ~ Planar Envoy		SELECT:.CLEAR	SELECT:2

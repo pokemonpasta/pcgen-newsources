@@ -111,8 +111,39 @@ Bonus Witch Hex												KEY:Favored Class Bonus ~ Witch ~ Aphorite								CAT
 #Wizard
 Bonus Caster Level											KEY:Favored Class Bonus ~ Witch ~ Aphorite								CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES			PRECLASS:1,Wizard=1			PRERACE:1,Aphorite	DESC:Add 1/3 to the wizard’s caster level when casting spells with the lawful descriptor or spells that create magical glyphs, runes, or symbols.																																				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
 
-
-
+###Block: Duskwalker
+#Antipaladin
+Bonus Touch of Corruption Damage												KEY:Favored Class Bonus ~ Antipaladin ~ Duskwalker
+#Arcanist
+Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Arcanist ~ Duskwalker
+#Bard
+Bonus Bardic Knowledge Bonus													KEY:Favored Class Bonus ~ Bard ~ Duskwalker
+#Cleric
+Bonus Positive Energy Damage Against Undead										KEY:Favored Class Bonus ~ Cleric ~ Duskwalker
+#Fighter
+Bonus Conscore Determining Death												KEY:Favored Class Bonus ~ Fighter ~ Duskwalker
+#Investigator
+Bonus Inspiration Rolls (Heal, Knowledge, Linguistics)							KEY:Favored Class Bonus ~ Investigator ~ Duskwalker
+#Kineticist
+Bonus Internal Buffer Capacity													KEY:Favored Class Bonus ~ Kineticist ~ Duskwalker
+#Monk
+Bonus Ki Pool																	KEY:Favored Class Bonus ~ Monk ~ Duskwalker
+#Paladin
+Bonus Lay On Hands Hit Points													KEY:Favored Class Bonus ~ Paladin ~ Duskwalker
+#Ranger
+Bonus Favored Enemy Bonus (Undead)												KEY:Favored Class Bonus ~ Ranger ~ Duskwalker
+#Rogue
+Bonus Rogue Talent																KEY:Favored Class Bonus ~ Rogue ~ Duskwalker
+#Skald
+Bonus Bardic Knowledge Bonus													KEY:Favored Class Bonus ~ Skald ~ Duskwalker
+#Spiritualist
+Bonus Phantom Base Speed														KEY:Favored Class Bonus ~ Spiritualist ~ Duskwalker
+#Vigilante
+Bonus Startling Appearance Penalty, Frightening Appearance Intimidate Check		KEY:Favored Class Bonus ~ Vigilante ~ Duskwalker
+#Witch
+Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Witch ~ Duskwalker
+#Wizard
+Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Wizard ~ Duskwalker
 
 
 

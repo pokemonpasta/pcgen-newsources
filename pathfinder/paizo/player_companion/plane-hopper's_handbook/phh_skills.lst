@@ -1,6 +1,7 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
+Acrobatics.MOD				SITUATION:To balance
 Disable Device.MOD			SITUATION:Glyphs, Scrolls, Symbols, and other Magical Writings
 Knowledge (Planes).MOD		SITUATION:Axis & Creatures with Lawful Subtype
 Linguistics.MOD				PREABILITY:1,CATEGORY:Special Ability,Aphorite ~ Planar Envoy		SELECT:.CLEAR	SELECT:2

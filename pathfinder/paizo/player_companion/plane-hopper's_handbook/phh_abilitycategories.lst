@@ -1,0 +1,7 @@
+#Original Entry by pokemonpasta
+SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
+
+# ======================
+# phh_abilities_race.lst
+# ======================
+ABILITYCATEGORY:Expanded Oddity Spell Choice			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ExpandedOdditySpellChoice				PLURAL:Expanded Oddity Spell Choices			DISPLAYLOCATION:Racial Abilities

@@ -24,6 +24,7 @@ COPYRIGHT:Demon, Nabasu from the Tome of Horrors Complete Copyright 2011, Necrom
 COPYRIGHT:Pathfinder Player Companion: Plane-Hopper’s Handbook Copyright 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer.
 COPYRIGHT:PCGen dataset conversion for "Plane-Hopper's Handbook" Copyright 2020, PCGen Data team (Including, but not limited to pokemonpasta).
 
+ABILITYCATEGORY:phh_abilitycategories.lst
 ABILITY:phh_abilities_class.lst
 ABILITY:phh_abilities_race.lst
 SKILL:phh_skills.lst

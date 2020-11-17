@@ -1,9 +1,9 @@
 Ultimate Combat (Quite a lot of stuff)
 Planar Adventures
-Occult Adventures (Occultist Archetype; Planar Harmonizer)
+Occult Adventures (Occultist Archetype Planar Harmonizer, Kineticist Duskwalker FCB Internal Buffer)
 Advanced Class Guide (Blurred Movement spell for Fume Sylph)
-Adventurer's Guide (Burning Sands for Magma Ifrit)
+Adventurer's Guide (Burning Sands spell for Magma Ifrit)
 Advanced Race Guide (Urban Grace Spell for Aphorite Urban Memories)
-Advanced Player's Guide (Witch Hex)
+Advanced Player's Guide (Witch Hex, Antipaladin Touch of Corruption)
 Bestiary 2 (Ifrit/Oread/Sylph/Undine)
 Ultimate Magic (Magus FCB)

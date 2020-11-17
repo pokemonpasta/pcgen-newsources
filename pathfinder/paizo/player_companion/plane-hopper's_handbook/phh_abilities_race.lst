@@ -92,13 +92,13 @@ Vestigial Wings			KEY:Ganzi ~ Vestigial Wings							CATEGORY:Special Ability	TYP
 Void Touch				KEY:Ganzi ~ Void Touch								CATEGORY:Special Ability	TYPE:RacialTraits.Ganzi Racial Trait.Ganzi Oddity Bonus.SpecialQuality.Supernatural																																																						DESC: ganzi whose lineage is influenced strongly by voidworms might exhibit the ability to inflict chaos on others’ minds. Three times per day when such a ganzi hits a creature with a melee attack, the ganzi can deliver a burst of chaos to that creature as a free action. The target must succeed at a Will save (DC %1) or be confused for 1 round.|(10+(TL/2)+CON)																																																																																																															SOURCEPAGE:p.19
 
 #Expanded Oddity Spell-Like Ability Choices
-Acid Arrow				KEY:Ganzi Expanded Oddity Spell ~ Acid Arrow		
-Gust of Wind			KEY:Ganzi Expanded Oddity Spell ~ Gust of Wind		
-Mirror Image			KEY:Ganzi Expanded Oddity Spell ~ Mirror Image		
-Resist Energy			KEY:Ganzi Expanded Oddity Spell ~ Resist Energy		
-Scorching Ray			KEY:Ganzi Expanded Oddity Spell ~ Scorching Ray		
-See Invisibility		KEY:Ganzi Expanded Oddity Spell ~ See Invisibility	
-Warp Wood				KEY:Ganzi Expanded Oddity Spell ~ Warp Wood			
+Acid Arrow				KEY:Ganzi Expanded Oddity Spell ~ Acid Arrow		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Acid Arrow
+Gust of Wind			KEY:Ganzi Expanded Oddity Spell ~ Gust of Wind		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Gust of Wind
+Mirror Image			KEY:Ganzi Expanded Oddity Spell ~ Mirror Image		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Mirror Image
+Resist Energy			KEY:Ganzi Expanded Oddity Spell ~ Resist Energy		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Resist Energy
+Scorching Ray			KEY:Ganzi Expanded Oddity Spell ~ Scorching Ray		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Scorching Ray
+See Invisibility		KEY:Ganzi Expanded Oddity Spell ~ See Invisibility	CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|See Invisibility
+Warp Wood				KEY:Ganzi Expanded Oddity Spell ~ Warp Wood			CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.ExpandedOdditySpellChoice			SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Warp Wood
 
 # =====================
 # Favored Class Options

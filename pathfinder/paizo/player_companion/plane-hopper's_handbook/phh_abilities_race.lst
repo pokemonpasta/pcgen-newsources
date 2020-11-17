@@ -132,7 +132,7 @@ Bonus Internal Buffer Capacity													KEY:Favored Class Bonus ~ Kineticist 
 Bonus Ki Pool																	KEY:Favored Class Bonus ~ Monk ~ Duskwalker				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMonk					VISIBLE:YES		PRECLASS:1,Monk=1			PRERACE:1,Duskwalker	DESC:Add 1/4 point to the monk’s ki pool.				DEFINE:DuskwalkerMonkFCB|0		BONUS:VAR|KiPoints|DuskwalkerMonkFCB/4		BONUS:VAR|DuskwalkerMonkFCB|1																															STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 #Paladin
 Bonus Lay On Hands Hit Points													KEY:Favored Class Bonus ~ Paladin ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin				VISIBLE:YES		PRECLASS:1,Paladin=1		PRERACE:1,Duskwalker	DESC:Add 1/2 point to hit points restored by the paladin’s lay on hands ability (whether using it to heal or harm).		DEFINE:DuskwalkerPaladinFCB|0	BONUS:VAR|PaladinLayOnHandsBonus|DuskwalkerPaladinFCB/2		BONUS:VAR|DuskwalkerPaladinFCB|1										STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
-CATEGORY=Special Ability|Paladin ~ Lay on Hands						PREABILITY:1,CATEGORY=Special Ability,Favored Class Bonus ~ Paladin ~ Duskwalker			DEFINE:PaladinLayOnHandsBonus|0															DESC:.CLEAR		DESC:You can heal wounds (your own or those of others) by touch. Each day you can use this ability %1 times per day. With one use of this ability, you can heal %2d6+%3 hit points of damage. Using this ability is a standard action, unless you target yourself, in which case it is a swift action. Despite the name of this ability, you only need one free hand to use this ability. Alternatively, you can use this healing power to deal damage to undead creatures, dealing %2d6+%3 points of damage. Using Lay on Hands in this way requires a melee touch attack and doesn't provide an attack of opportunity. Undead do not receive a saving throw against this damage.|LayOnHandsTimes|LayOnHandsDice|PaladinLayOnHandsBonus
+CATEGORY=Special Ability|Paladin ~ Lay on Hands.mod					PREABILITY:1,CATEGORY=Special Ability,Favored Class Bonus ~ Paladin ~ Duskwalker			DEFINE:PaladinLayOnHandsBonus|0															DESC:.CLEAR		DESC:You can heal wounds (your own or those of others) by touch. Each day you can use this ability %1 times per day. With one use of this ability, you can heal %2d6+%3 hit points of damage. Using this ability is a standard action, unless you target yourself, in which case it is a swift action. Despite the name of this ability, you only need one free hand to use this ability. Alternatively, you can use this healing power to deal damage to undead creatures, dealing %2d6+%3 points of damage. Using Lay on Hands in this way requires a melee touch attack and doesn't provide an attack of opportunity. Undead do not receive a saving throw against this damage.|LayOnHandsTimes|LayOnHandsDice|PaladinLayOnHandsBonus
 #Ranger
 Bonus Favored Enemy Bonus (Undead)												KEY:Favored Class Bonus ~ Ranger ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassRanger				VISIBLE:YES		PREMULT:3,[PRECLASS:1,Ranger=1],[PRERACE:1,Duskwalker],[PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Undead]	DESC:Add 1/5 to the ranger’s favored enemy bonus against undead. The ranger must have favored enemy (undead) to select this option.		DEFINE:DuskwalkerRangerFCB|0	BONUS:VAR|FavoredUndead|DuskwalkerRangerFCB/5	BONUS:VAR|DuskwalkerRangerFCB|1		STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 #Rogue
@@ -140,13 +140,30 @@ Bonus Rogue Talent																KEY:Favored Class Bonus ~ Rogue ~ Duskwalker		
 #Skald
 Bonus Bardic Knowledge Skill Bonus												KEY:Favored Class Bonus ~ Skald ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSkald					VISIBLE:YES		PRECLASS:1,Skald=1			PRERACE:1,Duskwalker	DESC:Add 1/2 to the skald’s bardic Knowledge bonus.		DEFINE:DuskwalkerSkaldFCB|0		BONUS:VAR|BardicKnowledgeSkillBonus|DuskwalkerSkaldFCB/2		BONUS:VAR|DuskwalkerSkaldFCB|1																										STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 #Spiritualist
-Bonus Phantom Base Speed														KEY:Favored Class Bonus ~ Spiritualist ~ Duskwalker		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSpiritualist			VISIBLE:YES		PRECLASS:1,Spiritualist=1	PRERACE:1,Duskwalker	DESC:Add 1 foot to the spiritualist’s phantom’s base speed. In combat, this option has no effect unless the spiritualist has selected it 5 times (or another increment of 5).
+Bonus Phantom Base Speed														KEY:Favored Class Bonus ~ Spiritualist ~ Duskwalker		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSpiritualist			VISIBLE:YES		PRECLASS:1,Spiritualist=1	PRERACE:1,Duskwalker	DESC:Add 1 foot to the spiritualist’s phantom’s base speed. In combat, this option has no effect unless the spiritualist has selected it 5 times (or another increment of 5).																												STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 #Vigilante
-Bonus Startling Appearance Penalty, Frightening Appearance Intimidate Check		KEY:Favored Class Bonus ~ Vigilante ~ Duskwalker		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassVigilante				VISIBLE:YES		PRECLASS:1,Vigilante=1		PRERACE:1,Duskwalker	DESC:
+Bonus Startling Appearance Penalty, Frightening Appearance Intimidate Check		KEY:Favored Class Bonus ~ Vigilante ~ Duskwalker		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassVigilante				VISIBLE:YES		PRECLASS:1,Vigilante=1		PRERACE:1,Duskwalker	DESC:Add 1/4 to the penalty inflicted by startling appearance, and a +1/2 bonus (currently +%1) on the Intimidate check for frightening appearance.|DuskwalkerVigilanteFCB/2		DEFINE:DuskwalkerVigilanteFCB|0		BONUS:VAR|StartlingAppearancePenalty|DuskwalkerVigilanteFCB/4	BONUS:VAR|DuskwalkerVigilanteFCB|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
+CATEGORY=Special Ability|Vigilante ~ Startling Appearance.MOD		PREABILITY:1,CATEGORY=Special Ability,Favored Class Bonus ~ Vigilante ~ Duskwalker			DEFINE:StartlingAppearancePenalty|0														DESC:.CLEAR		DESC:A vigilante learns to use the element of surprise to his advantage, startling foes that are unaware of his presence. Whenever a vigilante with this ability attempts an attack against a foe that is completely unaware of the vigilante's presence (usually due to Stealth or invisibility), the foe is treated as flat-footed for the rest of the vigilante's turn (uncanny dodge or a similar ability prevents this effect unless the vigilante is at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -%1 penalty on attacks made against the vigilante until the start of the vigilante's next turn.|StartlingAppearancePenalty	BONUS:VAR|StartlingAppearancePenalty|4
 #Witch
-Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Witch ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWitch					VISIBLE:YES		PRECLASS:1,Witch=1			PRERACE:1,Duskwalker	DESC:
+Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Witch ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWitch					VISIBLE:YES		PRECLASS:1,Witch=1			PRERACE:1,Duskwalker	DESC:Add 1/4 to the witch’s caster level when casting spells of the necromancy school.																																																	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 #Wizard
-Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Wizard ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1			PRERACE:1,Duskwalker	DESC:
+Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Wizard ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1			PRERACE:1,Duskwalker	DESC:Add 1/4 to the wizard’s caster level when casting spells of the necromancy school.																																																	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -104,6 +104,7 @@ Warp Wood				KEY:Ganzi Expanded Oddity Spell ~ Warp Wood			CATEGORY:Special Abil
 # Favored Class Options
 # =====================
 
+
 ###Block: Aphorite
 #Alchemist
 Bonus Splash Weapon Range Increment							KEY:Favored Class Bonus ~ Alchemist ~ Aphorite							CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassAlchemist				VISIBLE:YES			PRECLASS:1,Alchemist=1		PRERACE:1,Aphorite	DESC:Add 1 foot to the range increment of the alchemist’s thrown splash weapons (including the alchemist’s bombs). This option has no effect unless the alchemist has selected it 5 times (or another increment of 5).																			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
@@ -128,6 +129,7 @@ Bonus Blessing Times										KEY:Favored Class Bonus ~ Warpriest ~ Aphorite				
 Bonus Witch Hex												KEY:Favored Class Bonus ~ Witch ~ Aphorite								CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWitch					VISIBLE:YES			PRECLASS:1,Witch=1			PRERACE:1,Aphorite	DESC:The witch gains 1/6 of a new witch hex.																	DEFINE:WitchAphoriteBonusHex|0		BONUS:ABILITYPOOL|Witch Hex|WitchAphoriteBonusHex/6		BONUS:VAR|WitchAphoriteBonusHex|1													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
 #Wizard
 Bonus Caster Level											KEY:Favored Class Bonus ~ Witch ~ Aphorite								CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES			PRECLASS:1,Wizard=1			PRERACE:1,Aphorite	DESC:Add 1/3 to the wizard’s caster level when casting spells with the lawful descriptor or spells that create magical glyphs, runes, or symbols.																																				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.15
+
 
 ###Block: Duskwalker
 #Antipaladin
@@ -168,20 +170,25 @@ Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Witch ~ Dusk
 Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Wizard ~ Duskwalker			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1			PRERACE:1,Duskwalker	DESC:Add 1/4 to the wizard’s caster level when casting spells of the necromancy school.																																																	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.17
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###Block: Ganzi
+#Arcanist
+Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Arcanist ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassArcanist				VISIBLE:YES		PRECLASS:1,Arcanist=1			PRERACE:1,Ganzi		DESC:
+#Bard
+Bonus Bardic Knowledge Bonus													KEY:Favored Class Bonus ~ Bard ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBard					VISIBLE:YES		PRECLASS:1,Bard=1				PRERACE:1,Ganzi		DESC:
+#Druid
+Bonus Skills (Extraplanar Flora and Fauna)										KEY:Favored Class Bonus ~ Druid ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassDruid					VISIBLE:YES		PRECLASS:1,Druid=1				PRERACE:1,Ganzi		DESC:
+#Hunter
+Bonus Animal Companion Skills (Not Material Plane)								KEY:Favored Class Bonus ~ Hunter ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassHunter				VISIBLE:YES		PRECLASS:1,Hunter=1				PRERACE:1,Ganzi		DESC:
+#Investigator
+Bonus Inspiration Pool Points													KEY:Favored Class Bonus ~ Investigator ~ Ganzi			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInvestigator			VISIBLE:YES		PRECLASS:1,Investigator=1		PRERACE:1,Ganzi		DESC:
+#Oracle
+Bonus Enchantment School Spell													KEY:Favored Class Bonus ~ Oracle ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle				VISIBLE:YES		PRECLASS:1,Oracle=1				PRERACE:1,Ganzi		DESC:
+#Rogue
+Bonus Skills (Not Material Plane)												KEY:Favored Class Bonus ~ Rogue ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassRogue					VISIBLE:YES		PRECLASS:1,Rogue=1				PRERACE:1,Ganzi		DESC:
+#Sorcerer
+Bonus Bloodline Power Class Level												KEY:Favored Class Bonus ~ Sorcerer ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer				VISIBLE:YES		PRECLASS:1,Sorcerer=1			PRERACE:1,Ganzi		DESC:
+#Wizard
+Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Wizard ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1			PRERACE:1,Ganzi		DESC:
 
 
 

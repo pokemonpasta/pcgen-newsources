@@ -172,23 +172,23 @@ Bonus Necromancy Caster Level													KEY:Favored Class Bonus ~ Wizard ~ Dus
 
 ###Block: Ganzi
 #Arcanist
-Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Arcanist ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassArcanist				VISIBLE:YES		PRECLASS:1,Arcanist=1			PRERACE:1,Ganzi		DESC:
+Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Arcanist ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassArcanist				VISIBLE:YES		PRECLASS:1,Arcanist=1			PRERACE:1,Ganzi		DESC:Add 1/2 to the arcanist’s effective caster level when casting spells with the chaotic descriptor.																																													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.19
 #Bard
-Bonus Bardic Knowledge Bonus													KEY:Favored Class Bonus ~ Bard ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBard					VISIBLE:YES		PRECLASS:1,Bard=1				PRERACE:1,Ganzi		DESC:
+Bonus Bardic Knowledge Skill Bonus												KEY:Favored Class Bonus ~ Bard ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBard					VISIBLE:YES		PRECLASS:1,Bard=1				PRERACE:1,Ganzi		DESC:Add 1/2 to the bard’s bardic knowledge bonus.		DEFINE:GanziBardFCB|0		BONUS:VAR|BardicKnowledgeSkillBonus|GanziBardFCB/2		BONUS:VAR|GanziBardFCB|1																													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.19
 #Druid
-Bonus Skills (Extraplanar Flora and Fauna)										KEY:Favored Class Bonus ~ Druid ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassDruid					VISIBLE:YES		PRECLASS:1,Druid=1				PRERACE:1,Ganzi		DESC:
+Bonus Skills (Extraplanar Flora and Fauna)										KEY:Favored Class Bonus ~ Druid ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassDruid					VISIBLE:YES		PRECLASS:1,Druid=1				PRERACE:1,Ganzi		DESC:The druid gains a +1 bonus on Knowledge (nature) or Knowledge (planes) checks related to extraplanar flora and fauna.			BONUS:SITUATION|Knowledge (Nature)=Extraplanar Flora and Fauna,Knowledge (Planes)=Extraplanar Flora and Fauna|1										STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.19
 #Hunter
-Bonus Animal Companion Skills (Not Material Plane)								KEY:Favored Class Bonus ~ Hunter ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassHunter				VISIBLE:YES		PRECLASS:1,Hunter=1				PRERACE:1,Ganzi		DESC:
+Bonus Animal Companion Skills (Not Material Plane)								KEY:Favored Class Bonus ~ Hunter ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassHunter				VISIBLE:YES		PRECLASS:1,Hunter=1				PRERACE:1,Ganzi		DESC:The hunter’s animal companion is specially trained for extraplanar expeditions and gains a +1 bonus on Stealth and Acrobatics checks while on a plane other than the Material Plane.																								STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.19
 #Investigator
-Bonus Inspiration Pool Points													KEY:Favored Class Bonus ~ Investigator ~ Ganzi			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInvestigator			VISIBLE:YES		PRECLASS:1,Investigator=1		PRERACE:1,Ganzi		DESC:
+Bonus Inspiration Pool Points													KEY:Favored Class Bonus ~ Investigator ~ Ganzi			CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInvestigator			VISIBLE:YES		PRECLASS:1,Investigator=1		PRERACE:1,Ganzi		DESC:Increase the total number of points in the investigator’s inspiration pool by 1/3.		DEFINE:GanziInvestigatorFCB|0	BONUS:VAR|InvestigatorInspirationPoolBonus|GanziInvestigatorFCB/3		BONUS:VAR|GanziInvestigatorFCB|1													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:P.19
 #Oracle
-Bonus Enchantment School Spell													KEY:Favored Class Bonus ~ Oracle ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle				VISIBLE:YES		PRECLASS:1,Oracle=1				PRERACE:1,Ganzi		DESC:
+Bonus Enchantment School Spell													KEY:Favored Class Bonus ~ Oracle ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle				VISIBLE:YES		PRECLASS:1,Oracle=1				PRERACE:1,Ganzi		DESC:Add one spell known of the enchantment school from the cleric or wizard spell list. This spell must be at least 1 level below the highest spell level the oracle can cast.
 #Rogue
 Bonus Skills (Not Material Plane)												KEY:Favored Class Bonus ~ Rogue ~ Ganzi					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassRogue					VISIBLE:YES		PRECLASS:1,Rogue=1				PRERACE:1,Ganzi		DESC:
 #Sorcerer
 Bonus Bloodline Power Class Level												KEY:Favored Class Bonus ~ Sorcerer ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSorcerer				VISIBLE:YES		PRECLASS:1,Sorcerer=1			PRERACE:1,Ganzi		DESC:
 #Wizard
-Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Wizard ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1			PRERACE:1,Ganzi		DESC:
+Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Wizard ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1				PRERACE:1,Ganzi		DESC:
 
 
 

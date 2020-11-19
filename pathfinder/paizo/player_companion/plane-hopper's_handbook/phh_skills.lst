@@ -2,7 +2,9 @@
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
 Acrobatics.MOD				SITUATION:To balance
-Disable Device.MOD			SITUATION:Glyphs, Scrolls, Symbols, and other Magical Writings
+Disable Device.MOD			SITUATION:Glyphs, Scrolls, Symbols, and other Magical 
+Knowledge (Nature).MOD		SITUATION:Extraplanar Flora and Fauna
 Knowledge (Planes).MOD		SITUATION:Axis & Creatures with Lawful Subtype
+Knowledge (Planes).MOD		SITUATION:Extraplanar Flora and Fauna
 Linguistics.MOD				PREABILITY:1,CATEGORY:Special Ability,Aphorite ~ Planar Envoy		SELECT:.CLEAR	SELECT:2
 Use Magic Device.MOD		SITUATION:Glyphs, Scrolls, Symbols, and other Magical Writings

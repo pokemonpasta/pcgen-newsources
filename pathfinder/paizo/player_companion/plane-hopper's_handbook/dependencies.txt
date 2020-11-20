@@ -1,6 +1,6 @@
 Ultimate Combat (Quite a lot of stuff)
 Planar Adventures
-Occult Adventures (Occultist, Spiritualist, Kineticist)
+Occult Adventures (Occultist, Spiritualist, Kineticist, Medium)
 Advanced Class Guide (Blurred Movement spell for Fume Sylph)
 Adventurer's Guide (Burning Sands spell for Magma Ifrit)
 Advanced Race Guide (Urban Grace Spell for Aphorite Urban Memories. Aasimar and Tiefling Kineticist Wild Talent)

@@ -202,6 +202,27 @@ Bonus Bloodline Power Class Level												KEY:Favored Class Bonus ~ Sorcerer 
 #Wizard
 Bonus Chaotic Spell Effective Caster Level										KEY:Favored Class Bonus ~ Wizard ~ Ganzi				CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard				VISIBLE:YES		PRECLASS:1,Wizard=1				PRERACE:1,Ganzi		DESC:Add 1/3 to the wizard’s effective caster level when casting a spell with the chaotic descriptor.																																													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.19
 
+###Block: Shabti
+#Bard
+Bonus Bardic Knowledge Skill Bonus												KEY:Favored Class Bonus ~ Bard ~ Shabti					CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBard					VISIBLE:YES		PRECLASS:1,Bard=1				PRERACE:1,Shabti	DESC:Add 1/2 to the bard’s bardic knowledge bonus.		DEFINE:ShabtiBardFCB|0		BONUS:VAR|BardicKnowledgeSkillBonus|ShabtiBardFCB/2		BONUS:VAR|ShabtiBardFCB|1																													STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SOURCEPAGE:p.23
+#Bloodrager
+Bonus Bloodline Class Level
+#Investigator
+Bonus Studied Combat Duration
+#Medium
+Bonus Shared Seance Bonus
+#Oracle
+Bonus Psychic Spell
+#Paladin
+Bonus Smite Evil Level
+#Ranger
+Bonus Favored Terrain Bonus
+#Shaman
+Bonus Bardic Knowledge Skill Bonus
+#Skald
+Bonus Etheric Tether Limit
+#Spiritualist
+
 
 
 

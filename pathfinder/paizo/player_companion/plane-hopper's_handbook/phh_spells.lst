@@ -7,5 +7,14 @@ Speak With Plane									CLASSES:Medium,Summoner=3|Cleric,Shaman,Sorcerer,Wizard
 Talisman of Reprieve								CLASSES:Paladin=3|Inquisitor=4|Cleric=5													SCHOOL:Abjuration			COMPS:V, S, DF		CASTTIME:1 standard action			RANGE:Close							TARGETAREA:20-ft.-radius emanation centered on an item		DURATION:(CASTERLEVEL*10) minutes																							SOURCEPAGE:p.12						DESC:You imbue an item with an aura of divine amnesty, allowing all allies within the aura’s area to ignore penalties to Intelligence-, Wisdom-, and Charisma-based checks resulting from a plane’s mildly or strongly aligned traits, regardless of the allies’ alignments. In addition, the item grants a +4 circumstance bonus on checks with one Intelligence-, Wisdom-, or Charisma-based skill determined by you at the time of casting.
 
 ###Block: Planar Scion Spells
+Celestial Companion									
+Righteous Condemnation								
+Fiendish Wrath										
+Healing Leak										
 
+###Block: Other
+Greater Reversion									
+Minor Reversion										
+Minor Reversion, Mass								
+Eroding Ray											
 

@@ -32,8 +32,15 @@ Lonely Death										CATEGORY:FEAT		TYPE:General			PRERACE:1,Duskwalker								
 Willing Death										CATEGORY:FEAT		TYPE:General			PRERACE:1,Duskwalker																																																												DESC:You might have been a soldier in an army, a self-sacrificing lover, or a hero who rushed in where even angels feared to tread. You died because you valued someone else’s life above your own.																																									SOURCEPAGE:p.17		BENEFIT:Twice|PRELEVEL:MAX=10	BENEFIT:Four times|PRELEVEL:MIN=11	BENEFIT:per day, when an ally within 30 feet would die as a result of an attack or failing a saving throw, as an immediate action you can redirect the damage and effects to yourself. This functions as paladin’s sacrifice.
 
 ###Block: Gathlain Court Titles
+#TO-DO: For all feats in this block, if/when "The First World: Realm of the Fey" is written up, change "PRERACE:1,TYPE=Fey" to "PREMULT:1,[PRERACE:1,TYPE=Fey],[PREABILITY:1,CATEGORY=FEAT,Fey Obedience]" (or adjust accordingly)
+Ineffable Count of the Clock						CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRERACE:1,TYPE=Fey],[PRETEXT:You must have either visited or interacted with an outsider from the Dimension of Time.]																																	DESC:You realize that the endless march of time is more of a drunkard’s lurch, and this grants you status in the eyes of the Many.																																																									SOURCEPAGE:p.22		BENEFIT:Three times per day as a free action, you can increase your speed by any amount up to your base speed until the end of your turn. On the subsequent round, your speed is reduced by the same amount.
+Knight of the Twisted Word							CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRERACE:1,TYPE=Fey],[PRELEVEL:MIN=7],[PRETEXT:You must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat.]																			DESC:You’ve so impressed the Traitor that he’s given you a title in his court-in-exile—possibly to keep an eye on you.					SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Glibness																																												SOURCEPAGE:p.22		BENEFIT:Once per day, you can cast glibness as a spell-like ability with a caster level equal to your Hit Dice.
+Marcher-Lord of the Cerulean Abyss					CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRERACE:1,TYPE=Fey],[PRETEXT:You must have carved your name and a holy symbol on the hide of a living dragon or outsider with either the aquatic or water subtype and a CR at least 2 higher than your level when you took the feat.]					DESC:You’ve made your case to become one of Ragadahn’s nobles in the traditional way — by carving your sigil and the Water Lord’s ouroboros in the flesh of a living dragon or of another massive monstrosity — and earned some of his might as a reward.																											SOURCEPAGE:p.22		BENEFIT:You claim ownership of that which you strike. If you have dealt hit point damage to a creature this round, that creature takes a –2 penalty on combat maneuver checks and to its CMD until the beginning of your next round.
+Triple-Baron										CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRERACE:1,TYPE=Fey],[PRETEXT:You must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits.]		DESC:The Three have seen your offerings and proclaimed them satisfactory, even before you actually had the chance to show those offerings to them.																																																					SOURCEPAGE:p.22		BENEFIT:Three times per day as an immediate action, when you are about to roll for an attack, saving throw, or skill check, you can roll three d20s and use the middle of the three results. This ability cannot be combined with other effects that involve rerolling dice or involve rolling twice and taking either the higher or lower result.
 
-###Block:Hao Jin Tapestry Feats
+###Block:Hao Jin Tapestry Feats; Secrets of the Weave
+Swamp Dweller										CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRESTAT:1,STR=13],[PRETEXT:Must have visited the Hao Jin Tapestry]																																														DESC:You have trained with the Muckmouth lizardfolk of the Hao Jin Tapestry and learned their ways.										BONUS:SKILL|Swim|if(skillinfo("TOTALRANK","Swim")>=10,4,2)		BONUS:SITUATION|Swim=Marshy Terrain|if(skillinfo("TOTALRANK","Swim")>=10,4,2)																				SOURCEPAGE:p.30		BENEFIT:You gain a +2 bonus on Swim checks. If you have 10 or more ranks in Swim, the bonus increases to +4. This bonus doubles while you’re in marshy terrain. In addition, you can move normally into squares with a shallow bog, and it costs you only 2 squares of movement to move into a square with a deep bog.
+Dark Affinity										CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRELEVEL:MIN=3],[PRETEXT:Must have visited the Hao Jin Tapestry]																																															DESC:You have observed the dark stalkers and adopted some of their tricks.																SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Darkness	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Deeper Darkness|PRELEVEL:MIN=7																											SOURCEPAGE:p.30		BENEFIT:You can cast darkness once per day as a spell-like ability using your character level as your caster level.	BENEFIT:You can also cast deeper darkness once per day as a spell-like ability using your character level as your caster level.|PRELEVEL:MIN=7
 
 ###Block: Lucid Dreamer Feats
 
@@ -44,3 +51,21 @@ Willing Death										CATEGORY:FEAT		TYPE:General			PRERACE:1,Duskwalker							
 ###Block: Other
 Blackfire Summoning
 Retributive Summons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

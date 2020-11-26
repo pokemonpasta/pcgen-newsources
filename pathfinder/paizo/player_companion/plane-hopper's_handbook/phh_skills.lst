@@ -9,4 +9,5 @@ Knowledge (Planes).MOD		SITUATION:Axis & Creatures with Lawful Subtype
 Knowledge (Planes).MOD		SITUATION:Extraplanar Flora and Fauna
 Linguistics.MOD				PREABILITY:1,CATEGORY:Special Ability,Aphorite ~ Planar Envoy		SELECT:.CLEAR	SELECT:2
 Stealth.MOD					SITUATION:Not on Material Plane
+Swim.MOD					SITUATION:Marshy Terrain
 Use Magic Device.MOD		SITUATION:Glyphs, Scrolls, Symbols, and other Magical Writings

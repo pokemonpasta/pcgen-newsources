@@ -11,3 +11,27 @@ Reflexive Crystalline Dust							CATEGORY:FEAT		TYPE:General			PREMULT:3,[PREABI
 Scribe Spell Equation								CATEGORY:FEAT		TYPE:General			PREMULT:4,[PREABILITY:1,CATEGORY=FEAT,Scribe Scroll],[PRERACE:1,Aphorite],[PRECLASS:1,SPELLCASTER=5],[PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Crystalline Dust]																							DESC:You pluck runes and glyphs from your crystalline dust and arrange them into an equation that holds magic for later use.																																					SOURCEPAGE:p.15		BENEFIT:You manipulate the runes and glyphs of your crystalline dust into an equation that describes a specific spell. This process is identical to scribing a scroll, except that the spell is stored as a specific pattern in your crystalline dust, visible only to you. You can activate the spell in the same way you would activate a scroll, except that you need only one hand free to trace the final glyph in the equation, releasing the spell. The cost of materials to store a spell equation is the same price as scribing an equivalent scroll. You can have one spell equation stored at a time, plus one additional spell when your character level reaches 10th, 15th, and 20th levels.
 Spell Praxis										CATEGORY:FEAT		TYPE:General			PREMULT:4,[PREABILITY:2,CATEGORY=FEAT,Scribe Scroll,Scribe Spell Equation],[PRERACE:1,Aphorite],[PRECLASS:1,SPELLCASTER=5],[PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Crystalline Dust]																		DESC:You can solve your spell equations in the instant your blade strikes a foe.																																																SOURCEPAGE:p.15		BENEFIT:When you hit a creature with a melee weapon, you can immediately solve one of your spell equations to cast the spell and target that creature as an immediate action. The spell stored in the spell equation must be a spell of up to 3rd level that targets one or more creatures and has a casting time of 1 standard action. The spell can target only the creature you hit, even if the spell would normally allow multiple targets.
 Swift Crystalline Dust								CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRERACE:1,Aphorite],[PREABILITY:1,CATEGORY=Special Ability,Aphorite ~ Crystalline Dust]																																									DESC:You can manifest your crystalline dust more rapidly.																																																						SOURCEPAGE:p.15		BENEFIT:You can activate your crystalline dust ability as a swift action instead of as a move action.
+
+###Block: Style Feats
+Asura Sight
+Asura Spellrend
+Asura Style
+Cerberus Crush
+Cerberus Snare
+Cerberus Style
+
+###Block: Duskwalker Origin Feats
+
+###Block: Gathlain Court Titles
+
+###Block:Hao Jin Tapestry Feats
+
+###Block: Lucid Dreamer Feats
+
+###Block: Planar Mentor Feats
+
+###Block: Star Travel Feats
+
+###Block: Other
+Blackfire Summoning
+Retributive Summons

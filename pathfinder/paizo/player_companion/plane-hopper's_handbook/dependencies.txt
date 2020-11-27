@@ -1,10 +1,15 @@
+EXISTING DEPENDENCIES
 Ultimate Combat (Quite a lot of stuff)
 Planar Adventures
-Occult Adventures (Occultist, Spiritualist, Kineticist, Medium)
+Occult Adventures (Occultist, Spiritualist, Kineticist, Medium, Lucid Dreamer Feat)
 Advanced Class Guide (Blurred Movement spell for Fume Sylph)
 Adventurer's Guide (Burning Sands spell for Magma Ifrit)
 Advanced Race Guide (Urban Grace Spell for Aphorite Urban Memories. Aasimar and Tiefling Kineticist Wild Talent)
 Advanced Player's Guide (Witch Hex, Antipaladin Touch of Corruption)
 Bestiary 2 (Ifrit/Oread/Sylph/Undine)
-Ultimate Magic (Magus Aphorite FCB)
+Ultimate Magic (Magus Aphorite FCB, Sacred Summons PREABILITY for Summoning Feats)
 Ultimate Intrigue (Vigilante Duskwalker FCB, Conditional Favor Spell)
+
+DEPENDENCIES THAT HAVEN'T BEEN WRITTEN
+Paths of Prestige (Blackfire Summoning and Retributive Summons)
+The First World: Realm of the Fey (Gathlain Court Titles Feats)

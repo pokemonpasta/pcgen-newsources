@@ -43,29 +43,23 @@ Swamp Dweller										CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRESTAT:1,STR=13
 Dark Affinity										CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRELEVEL:MIN=3],[PRETEXT:Must have visited the Hao Jin Tapestry]																																															DESC:You have observed the dark stalkers and adopted some of their tricks.																SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Darkness	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Deeper Darkness|PRELEVEL:MIN=7																											SOURCEPAGE:p.30		BENEFIT:You can cast darkness once per day as a spell-like ability using your character level as your caster level.	BENEFIT:You can also cast deeper darkness once per day as a spell-like ability using your character level as your caster level.|PRELEVEL:MIN=7
 
 ###Block: Lucid Dreamer Feats
+Dreamwalker											CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRESTAT:1,CHA=17],[PREABILITY:2,CATEGORY=FEAT,Lucid Dreamer,Practiced Dreamer],[PRESKILL:1,Knowledge (Planes)=10]																																		DESC:Your dreams are as vivid as your waking hours, and you can slip into a dreamlike state with no effort.																																																															SOURCEPAGE:p.29		BENEFIT:Your experience in the Dimension of Dreams allows you to enter the demiplane with ease. You no longer have to attempt a Charisma check when entering the Dimension of Dreams to determine whether or not you are at a disadvantage, instead automatically arriving unhindered.
+Ephemeral Tread										CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRESTAT:1,CHA=15],[PREABILITY:1,CATEGORY=FEAT,Lucid Dreamer],[PRESKILL:1,Knowledge (Planes)=5]																																							DESC:You are able to gain some abilities of a lucid dreamer while in your corporeal form.																																																																			SOURCEPAGE:p.30		BENEFIT:Once per day, when you are in the Dimension of Dreams in your physical body, you can attempt an impossible action as a standard action as though you were in a lucid body. No positive modifiers can be applied to this roll other than your Charisma modifier.
+Practiced Dreamer									CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRESTAT:1,CHA=15],[PREABILITY:1,CATEGORY=FEAT,Lucid Dreamer],[PRESKILL:1,Knowledge (Planes)=5]																																							DESC:Your time in the Dimension of Dreams has improved your ability to manipulate its landscape.																																																																	SOURCEPAGE:p.30		BENEFIT:Once per day, you can reroll a failed attempt to perform an impossible action, such as casting a spell you can’t normally cast, gaining an effect of a spell as if it had been cast, or conjuring a magic item. You also gain an additional +2 bonus on Charisma checks to determine your initial condition when entering a dream with your lucid body.
+Waking Dream										CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRESTAT:1,CHA=17],[PREABILITY:2,CATEGORY=FEAT,Lucid Dreamer,Ephemeral Tread],[PRESKILL:1,Knowledge (Planes)=10]																																			DESC:You can manipulate the world of dreams, even in your physical form.																																																																							SOURCEPAGE:p.30		BENEFIT:When in the Dimension of Dreams in your physical body, you gain an additional attempt at an impossible action per day, for a total of two attempts. However, as a result of your meddling with the fabric of the realm, when you travel to the Dimension of Dreams in your physical body, you must succeed at a DC 15 Charisma check or arrive at a disadvantage.
 
 ###Block: Planar Mentor Feats
+Greater Planar Mentor								CATEGORY:FEAT		TYPE:
+Improved Planar Mentor								CATEGORY:FEAT		TYPE:
+Planar Mentor										CATEGORY:FEAT		TYPE:
 
 ###Block: Star Travel Feats
+Cosmic Gate											CATEGORY:FEAT		TYPE:General			PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Lady Luck's Guidance],[PRESKILL:1,Knowledge (Planes)=10]																																										DESC:You know that the stars shining in Cynosure's pools aren't reflections, but are gateways, and you can use this knowledge in your travels.																																																						SOURCEPAGE:p.29		BENEFIT:Once per day, you can instantly travel to a nearby location on the Material Plane; this functions as teleport except you are always considered very familiar with your destination.
+Improved Stellar Wanderer							CATEGORY:FEAT		TYPE:General			PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Improved Stellar Wanderer],[PRESKILL:1,Knowledge (Planes)=15]																																									DESC:You have mastered the art of planar travel through your time on Cynosure.																																																																						SOURCEPAGE:p.29		BENEFIT:When using the Stellar Wanderer feat for planar travel, you can choose up to eight creatures to be transported with you. You now appear 1 to 100 miles (1d%) from your intended destination rather than 5 to 500 miles.
+Lady Luck's Guidance								CATEGORY:FEAT		TYPE:General			PRESKILL:2,Knowledge (Geography)=5,Knowledge (Planes)=5																																																				DESC:The gods have taken a liking to you and guide you from the stars as you travel.																																																																				SOURCEPAGE:p.29		BENEFIT:Once per day during overland travel, you can attempt a DC 25 Knowledge (geography) check to follow the stars. On a success, you and up to eight other creatures use mystical guidance to travel twice the usual distance during overland travel.
+Stellar Wanderer									CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRELEVEL:MIN=15],[PRESKILL:1,Knowledge (Planes)=10]																																																		DESC:You have gained Desna’s trust, and she has taught you her realm’s secrets.																																																																						SOURCEPAGE:p.29		BENEFIT:Once per week, you can use the pools of Cynosure to instantly transport yourself from Cynosure to any plane, as per plane shift.
 
 ###Block: Other
-Blackfire Summoning
-Retributive Summons
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#TO-DO: If/when Paths of Prestige is written up: Blackfire summoning split BENEFIT Into two tags, second tag with PREABILITY; Retributive Summons change PRE to PREMULT with PREABILITY
+Blackfire Summoning									CATEGORY:FEAT		TYPE:General			PREABILITY:1,CATEGORY=FEAT,Sacred Summons																																																							DESC:You have learned to make your summons destructive to the fabric of the planes, bringing blackfire in the wake of your magic.																																																									SOURCEPAGE:p.5		BENEFIT:When you summon a single evil outsider, it appears in a flash of blackfire, harming all adjacent nonevil creatures. This deals an amount of damage equal to twice the CR of the summoned creature. An affected creature can attempt a Will save (DC = the DC of the spell used to summon the creature) to halve this damage. A spell augmented with blackfire summoning uses up a spell slot 1 level higher than the spell’s actual level. If you have the blackfire pact class feature, you can apply the benefits of this feat to summoned outsiders of the type or types you have selected for your blackfire pact without raising the spell’s effective level.
+Retributive Summons									CATEGORY:FEAT		TYPE:General			PREABILITY:1,CATEGORY=FEAT,Spell Focus (Conjuration)																																																				DESC:Your training in counterspelling summons is so extensive that you can redirect some of your foes’ power to call forth your own allies.																																																							SOURCEPAGE:p.6		BENEFIT:When you successfully counter a summoning spell with dispel magic or your own summon monster spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell.

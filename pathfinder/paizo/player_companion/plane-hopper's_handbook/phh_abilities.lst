@@ -11,7 +11,7 @@ Lawful Good						KEY:Planar Mentor Alignment ~ Lawful Good			CATEGORY:Internal		
 Lawful Neutral					KEY:Planar Mentor Alignment ~ Lawful Neutral		CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,LN,LE,TN										TEMPBONUS:PC|SKILL|ALL|2
 Lawful Evil						KEY:Planar Mentor Alignment ~ Lawful Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,LE,NE
 Neutral Good					KEY:Planar Mentor Alignment ~ Neutral Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,NG,TN,CG		TEMPBONUS:PC|SAVE|ALL|2			TEMPBONUS:PC|SKILL|ALL|2
-True Neutral					KEY:Planar Mentor Alignment ~ True Neutral			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,NG,TN,NE,CN										TEMPBONUS:PC|SKILL|ALL|2
+True Neutral					KEY:Planar Mentor Alignment ~ True Neutral			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,NG,TN,NE,CN										TEMPBONUS:PC|SKILL|ALL|2		BONUS:VAR|PlanarMentorTimes|1
 Neutral Evil					KEY:Planar Mentor Alignment ~ Neutral Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LE,TN,NE,CE										TEMPBONUS:PC|SKILL|ALL|2
 Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NG,CG,CN			TEMPBONUS:PC|SAVE|ALL|2
 Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral		CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2

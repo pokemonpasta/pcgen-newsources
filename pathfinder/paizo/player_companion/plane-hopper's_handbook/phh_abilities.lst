@@ -1,6 +1,9 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
+#.MOD to set up kits for Well-Provisioned Adventurer Trait
+CATEGORY=Special Ability|Trait ~ Well-Provisioned Adventurer.MOD			KIT:1|Blessed Warden Package (Trait)|Corporeal Warrior Package (Trait)|Planar Traveler Package (Trait)
+
 ###Block: Traits
 Acclimatize Alignment			KEY:Trait ~ Acclimatize Alignment				CATEGORY:Special Ability		TYPE:Trait.FaithTrait			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Acclimatize Alignment],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.FaithTrait]			DESC:Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment. For each consecutive day you remain on a mildly aligned plane that opposes your alignment, reduce your penalty on Charisma-based checks by 1, to a minimum of 0. This does not affect the penalty from a strongly aligned plane.													SOURCEPAGE:p.3
 Internal Compass				KEY:Trait ~ Internal Compass					CATEGORY:Special Ability		TYPE:Trait.MagicTrait			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Internal Compass],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.MagicTrait]					DESC:You maintain a sense of direction, even on planes where direction is relative. If you are on a plane that has no analogue to north, you automatically know the direction toward the plane’s major dominating feature. If there is no such dominating feature, you instead know the direction of the closest feature significant to one of the plane’s divinities or demigods.			SOURCEPAGE:p.3

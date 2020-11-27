@@ -1,4 +1,14 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
+###Block: Planar Equipment Packages
 
+###Block: Planar Power Components
+Cooperation Crystal			KEY:Cooperation Crystal			SORTKEY:Cooperation Crystal			TYPE:Goods.Alchemical.Consumable			COST:300	WT:0	SOURCEPAGE:p.10			DESC:This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the chaotic good plane of Elysium. When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell’s duration and effect. This increase doesn’t stack with other effects that raise the caster level of a spell.
+Fire Fragment
+Heavenly Quartz
+Void Shard
+Whimsy Star
+Planar Vehicle
+
+###Block: Planar Vehicle

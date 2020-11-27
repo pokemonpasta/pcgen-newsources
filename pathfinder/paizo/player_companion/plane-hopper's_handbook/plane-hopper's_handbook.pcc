@@ -31,5 +31,6 @@ ABILITY:phh_feats.lst
 ABILITYCATEGORY:phh_abilitycategories.lst
 COMPANIONMOD:phh_companionmods.lst
 EQUIPMENT:phh_equip.lst
+KIT:phh_kits.lst
 SKILL:phh_skills.lst
 SPELL:phh_spells.lst

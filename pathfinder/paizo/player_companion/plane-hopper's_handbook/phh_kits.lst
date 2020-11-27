@@ -1,0 +1,63 @@
+#Original Entry by pokemonpasta
+SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
+
+STARTPACK:Blessed Warden Package (Trait)	TYPE:Adventuring Kit	EQUIPBUY:0	PREABILITY:1,CATEGORY=Special Ability,Trait ~ Well-Provisioned Adventurer
+GEAR:Chain Shirt						QTY:1		SIZE:PC			LOCATION:Equipped			EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Shortspear							QTY:1		SIZE:PC			LOCATION:Primary Hand		EQMOD:Material ~ Cold Iron
+GEAR:Crossbow (Light)					QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bolt (Crossbow)					QTY:20		SIZE:PC			LOCATION:Carried
+GEAR:Holy Water (Flask)					QTY:3		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Cure Light Wounds		QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Protection from Chaos	QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Protection from Evil		QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Remove Curse				QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/	50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Spell Component Pouch				QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Holy Symbol						QTY:1		SIZE:PC			LOCATION:Equipped
+FUNDS:gp	QTY:13
+
+STARTPACK:Blessed Warden Package	TYPE:Adventuring Kit	APPLY:INSTANT
+GEAR:Chain Shirt						QTY:1		SIZE:PC			LOCATION:Equipped			EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Shortspear							QTY:1		SIZE:PC			LOCATION:Primary Hand		EQMOD:Material ~ Cold Iron
+GEAR:Crossbow (Light)					QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bolt (Crossbow)					QTY:20		SIZE:PC			LOCATION:Carried
+GEAR:Holy Water (Flask)					QTY:3		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Cure Light Wounds		QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Protection from Chaos	QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Protection from Evil		QTY:2		SIZE:PC			LOCATION:Carried
+GEAR:Scroll of Remove Curse				QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/	50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Spell Component Pouch				QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Holy Symbol						QTY:1		SIZE:PC			LOCATION:Equipped
+FUNDS:gp	QTY:13
+
+
+
+STARTPACK:Corporeal Warrior Package (Trait)
+
+
+
+
+STARTPACK:Planar Traveler Package (Trait)
+
+GEAR:Shield (Light/Wooden)		QTY:1		SIZE:PC			LOCATION:Equipped

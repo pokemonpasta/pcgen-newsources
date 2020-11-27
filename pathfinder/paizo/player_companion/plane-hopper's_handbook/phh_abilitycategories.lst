@@ -1,7 +1,8 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
-# ======================
-# phh_abilities_race.lst
-# ======================
+###Block: Racial Abilities
 ABILITYCATEGORY:Expanded Oddity Spell Choice			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ExpandedOdditySpellChoice				PLURAL:Expanded Oddity Spell Choices			DISPLAYLOCATION:Racial Abilities
+
+###Block: Feats
+ABILITYCATEGORY:Planar Mentor Alignment Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarMentorAlignmentSelection			PLURAL:Planar Mentor Alignment Selections		DISPLAYLOCATION:Feats

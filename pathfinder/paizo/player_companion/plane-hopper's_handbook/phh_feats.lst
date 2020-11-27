@@ -51,7 +51,7 @@ Waking Dream										CATEGORY:FEAT		TYPE:General			PREMULT:3,[PRESTAT:1,CHA=17]
 ###Block: Planar Mentor Feats
 Greater Planar Mentor								CATEGORY:FEAT		TYPE:
 Improved Planar Mentor								CATEGORY:FEAT		TYPE:
-Planar Mentor										CATEGORY:FEAT		TYPE:
+Planar Mentor										CATEGORY:FEAT		TYPE:General																																																																				DESC:Whether you sought it out, caught its attention, or inherited its service, an outsider is watching over you. The more you impress it, the more it shares its power and knowledge.					BONUS:ABILITYPOOL|Planar Mentor Alignment Selection|1																										SOURCEPAGE:p.27		BENEFIT:When you take this feat, choose one non-unique outsider with 18 Hit Dice or fewer and whose alignment is within one step of your own along either the law/chaos axis or the good/evil axis.		BENEFIT:Twice|!PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ True Neutral	BENEFIT:Three times|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ True Neutral		BENEFIT:per day when you fulfill the condition associated with either component of your mentor’s alignment, you can gain your mentor’s boon for that alignment as an immediate action. This grants you resistance equal to your level to a particular energy type as well as a special benefit associated with that alignment. These benefits last for %1 rounds.|max(1,CHA+1)
 
 ###Block: Star Travel Feats
 Cosmic Gate											CATEGORY:FEAT		TYPE:General			PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Lady Luck's Guidance],[PRESKILL:1,Knowledge (Planes)=10]																																										DESC:You know that the stars shining in Cynosure's pools aren't reflections, but are gateways, and you can use this knowledge in your travels.																																																						SOURCEPAGE:p.29		BENEFIT:Once per day, you can instantly travel to a nearby location on the Material Plane; this functions as teleport except you are always considered very familiar with your destination.
@@ -63,3 +63,27 @@ Stellar Wanderer									CATEGORY:FEAT		TYPE:General			PREMULT:2,[PRELEVEL:MIN=1
 #TO-DO: If/when Paths of Prestige is written up: Blackfire summoning split BENEFIT Into two tags, second tag with PREABILITY; Retributive Summons change PRE to PREMULT with PREABILITY
 Blackfire Summoning									CATEGORY:FEAT		TYPE:General			PREABILITY:1,CATEGORY=FEAT,Sacred Summons																																																							DESC:You have learned to make your summons destructive to the fabric of the planes, bringing blackfire in the wake of your magic.																																																									SOURCEPAGE:p.5		BENEFIT:When you summon a single evil outsider, it appears in a flash of blackfire, harming all adjacent nonevil creatures. This deals an amount of damage equal to twice the CR of the summoned creature. An affected creature can attempt a Will save (DC = the DC of the spell used to summon the creature) to halve this damage. A spell augmented with blackfire summoning uses up a spell slot 1 level higher than the spell’s actual level. If you have the blackfire pact class feature, you can apply the benefits of this feat to summoned outsiders of the type or types you have selected for your blackfire pact without raising the spell’s effective level.
 Retributive Summons									CATEGORY:FEAT		TYPE:General			PREABILITY:1,CATEGORY=FEAT,Spell Focus (Conjuration)																																																				DESC:Your training in counterspelling summons is so extensive that you can redirect some of your foes’ power to call forth your own allies.																																																							SOURCEPAGE:p.6		BENEFIT:When you successfully counter a summoning spell with dispel magic or your own summon monster spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell.
+
+
+###Block: Planar Mentor BENEFIT based on Planar Mentor Alignment
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; Chaotic: To earn chaotic approval, you must provoke an attack of opportunity from a creature whose CR is at least half your level. You gain acid resistance %1 as well as a 10%% miss chance due to concealment.|TL|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Chaotic Good,Planar Mentor Alignment ~ Chaotic Neutral,Planar Mentor Alignment ~ Chaotic Evil
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; Evil: To earn evil approval, you must damage a flat-footed foe, hit a foe you’re flanking, or confirm a critical hit. You gain fire resistance %1, and your attacks deal %2 points of bleed damage|TL|(TL/2)|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Evil,Planar Mentor Alignment ~ Neutral Evil,Planar Mentor Alignment ~ Chaotic Evil
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; Good: To earn good approval, you must heal another creature or deal nonlethal damage to a foe using an ability that has no additional effects beyond nonlethal damage. You gain electricity resistance %1 and a +2 bonus on your saving throws.|TL|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Good,Planar Mentor Alignment ~ Neutral Good,Planar Mentor Alignment ~ Chaotic Good
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; Lawful: To earn lawful approval, you must perform the aid another action for an ally whose level is equal to or greater than your own, or you must benefit from the aid another action from such an ally. You gain cold resistance %1 and the benefits of the light fortification armor special ability.|TL|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Good,Planar Mentor Alignment ~ Lawful Neutral,Planar Mentor Alignment ~ Lawful Evil
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; Neutral: To earn neutral approval, you must succeed at a saving throw prompted by a source with a CR of at least half your level. You gain resistance %1 to any one energy type (your choice) and a +2 bonus on skill checks.|TL|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Neutral,Planar Mentor Alignment ~ Neutral Good,Planar Mentor Alignment ~ True Netural,Planar Mentor Alignment ~ Neutral Evil,Planar Mentor Alignment ~ Chaotic Neutral
+#End of BENEFIT
+CATEGORY=FEAT|Planar Mentor.MOD				BENEFIT:&nl; If your mentor is killed or imprisoned, you lose the benefits of this feat and any feats for which it is a prerequisite. When you gain a level, you can secure a new mentor by performing a ritual that takes 8 hours and expends components worth 200 gp × the new mentor’s Hit Dice.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

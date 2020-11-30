@@ -19,3 +19,9 @@ Neutral Evil					KEY:Planar Mentor Alignment ~ Neutral Evil			CATEGORY:Internal	
 Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NG,CG,CN			TEMPBONUS:PC|SAVE|ALL|2
 Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral		CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2
 Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NE,CN,CE
+
+###Block: Elemental Familiar Subtype Selection
+Air								KEY:Elemental Familiar Subtype ~ Air				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Earth							KEY:Elemental Familiar Subtype ~ Earth				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Fire							KEY:Elemental Familiar Subtype ~ Fire				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Water							KEY:Elemental Familiar Subtype ~ Water				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection

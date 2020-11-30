@@ -26,6 +26,7 @@ COPYRIGHT:PCGen dataset conversion for "Plane-Hopper's Handbook" Copyright 2020,
 
 ABILITY:phh_abilities.lst
 ABILITY:phh_abilities_class.lst
+ABILITY:phh_abilities_companion.lst
 ABILITY:phh_abilities_race.lst
 ABILITY:phh_feats.lst
 ABILITYCATEGORY:phh_abilitycategories.lst

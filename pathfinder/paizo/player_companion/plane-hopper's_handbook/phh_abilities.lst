@@ -7,18 +7,22 @@ Internal Compass				KEY:Trait ~ Internal Compass					CATEGORY:Special Ability		T
 Subjective Equilibrium			KEY:Trait ~ Subjective Equilibrium				CATEGORY:Special Ability		TYPE:Trait.CombatTrait			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Subjective Equilibrium],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.CombatTrait]			DESC:You gain a +2 trait bonus on Wisdom checks to move on a plane with subjective directional gravity, and you gain a +10-foot enhancement bonus to your speed when “falling” on such a plane.																																																SOURCEPAGE:p.3
 
 ###Block: Planar Mentor Feat Alignment Selection
-Lawful Good						KEY:Planar Mentor Alignment ~ Lawful Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,NG,LN			TEMPBONUS:PC|SAVE|ALL|2
-Lawful Neutral					KEY:Planar Mentor Alignment ~ Lawful Neutral		CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,LN,LE,TN										TEMPBONUS:PC|SKILL|ALL|2
-Lawful Evil						KEY:Planar Mentor Alignment ~ Lawful Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,LE,NE
-Neutral Good					KEY:Planar Mentor Alignment ~ Neutral Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,NG,TN,CG		TEMPBONUS:PC|SAVE|ALL|2			TEMPBONUS:PC|SKILL|ALL|2
-True Neutral					KEY:Planar Mentor Alignment ~ True Neutral			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,NG,TN,NE,CN										TEMPBONUS:PC|SKILL|ALL|2		BONUS:VAR|PlanarMentorTimes|1
-Neutral Evil					KEY:Planar Mentor Alignment ~ Neutral Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LE,TN,NE,CE										TEMPBONUS:PC|SKILL|ALL|2
-Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NG,CG,CN			TEMPBONUS:PC|SAVE|ALL|2
-Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral		CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2
-Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil			CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NE,CN,CE
+Lawful Good						KEY:Planar Mentor Alignment ~ Lawful Good						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,NG,LN			TEMPBONUS:PC|SAVE|ALL|2
+Lawful Neutral					KEY:Planar Mentor Alignment ~ Lawful Neutral					CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,LN,LE,TN										TEMPBONUS:PC|SKILL|ALL|2
+Lawful Evil						KEY:Planar Mentor Alignment ~ Lawful Evil						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,LE,NE
+Neutral Good					KEY:Planar Mentor Alignment ~ Neutral Good						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LG,NG,TN,CG		TEMPBONUS:PC|SAVE|ALL|2			TEMPBONUS:PC|SKILL|ALL|2
+True Neutral					KEY:Planar Mentor Alignment ~ True Neutral						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LN,NG,TN,NE,CN										TEMPBONUS:PC|SKILL|ALL|2		BONUS:VAR|PlanarMentorTimes|1
+Neutral Evil					KEY:Planar Mentor Alignment ~ Neutral Evil						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:LE,TN,NE,CE										TEMPBONUS:PC|SKILL|ALL|2
+Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NG,CG,CN			TEMPBONUS:PC|SAVE|ALL|2
+Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral					CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2
+Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NE,CN,CE
 
 ###Block: Elemental Familiar Subtype Selection
-Air								KEY:Elemental Familiar Subtype ~ Air				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Earth							KEY:Elemental Familiar Subtype ~ Earth				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Fire							KEY:Elemental Familiar Subtype ~ Fire				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Water							KEY:Elemental Familiar Subtype ~ Water				CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Air								KEY:Elemental Familiar Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Earth							KEY:Elemental Familiar Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Fire							KEY:Elemental Familiar Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Water							KEY:Elemental Familiar Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+
+###Block: Air Elemental Manifestation Fly Selection
+Bonus Maneuverability			KEY:Air Elemental Manifestation ~ Bonus Maneuverability			CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:VAR|Maneuverability|1
+Bonus Fly Speed					KEY:Air Elemental Manifestation ~ Bonus Fly Speed				CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:MOVEADD|TYPE.Fly|10

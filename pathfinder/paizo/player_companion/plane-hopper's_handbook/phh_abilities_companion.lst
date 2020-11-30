@@ -17,7 +17,12 @@ Void Eidolon
 
 #Elemental Familiar
 Elemental Type					KEY:Elemental Familiar ~ Elemental Type					CATEGORY:Special Ability			TYPE:Class Feature.Familiar Class Feature.SpecialQuality.Extraordinary						DESC:An elemental familiar gains a subtype that matches its element: air, earth, fire, or water.		BONUS:ABILITYPOOL|ElementalFamiliarSubtypeSelection|1			SOURCEPAGE:p.26
-Elemental Manifestation			KEY:Elemental Familiar ~ Elemental Manifestation		CATEGORY:Special Ability			TYPE:Class Feature.Familiar Class Feature.SpecialQuality.Extraordinary						DESC:			SOURCEPAGE:p.26
+Elemental Manifestation			KEY:Elemental Familiar ~ Elemental Manifestation		CATEGORY:Special Ability			TYPE:Class Feature.Familiar Class Feature.SpecialQuality.Extraordinary						DESC:An elemental familiar gains one or more special abilities based on its element.			SOURCEPAGE:p.26
 Elemental Speech				KEY:Elemental Familiar ~ Elemental Speech				CATEGORY:Special Ability			TYPE:Class Feature.Familiar Class Feature.SpecialQuality.Extraordinary.Communicate
 
 ###Block: Eidolon Subtype Abilities
+
+###Block: Elemental Manifestation .MODs
+CATEGORY=Special Ability|Elemental Familiar ~ Elemental Manifestation.MOD			DESC:An air familiar gains a fly speed of 20 feet (good maneuverability); an air familiar that already has a fly speed instead improves its maneuverability by one category or increases its fly speed by 10 feet. An air familiar is considered three size categories larger than its actual size when calculating whether it can be moved by wind.|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Air		BONUS:MOVEADD|TYPE.Fly|20|PREMULT:2,[PREMOVE:1,Fly=0],[PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Air]		BONUS:ABILITYPOOL|AirElementalManifestationFlySelection|1|PREMULT:2,[!PREMOVE:1,Fly=0],[PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Air]
+CATEGORY=Special Ability|Elemental Familiar ~ Elemental Manifestation.MOD			DESC:An earth familiar increases the natural armor bonus it gains from its master’s class level by 50% (minimum +1).|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Earth			BONUS:VAR|AC_Natural_Armor|(1+MASTERVAR("FamiliarLVL"))/4|TYPE=NaturalArmor.STACK|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Earth
+CATEGORY=Special Ability|Elemental Familiar ~ Elemental Manifestation.MOD			DESC:

@@ -3,12 +3,14 @@ SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
 ###Block: Racial Abilities
 #Ganzi SLA Oddity has choice between several spells
-ABILITYCATEGORY:Expanded Oddity Spell Choice				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ExpandedOdditySpellChoice				PLURAL:Expanded Oddity Spell Choices			DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Expanded Oddity Spell Choice				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ExpandedOdditySpellChoice				PLURAL:Expanded Oddity Spell Choices				DISPLAYLOCATION:Racial Abilities
 
 ###Block: Feats
 #Planar Mentor has specific alignment which determines other abilities.
-ABILITYCATEGORY:Planar Mentor Alignment Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarMentorAlignmentSelection			PLURAL:Planar Mentor Alignment Selections		DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Planar Mentor Alignment Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarMentorAlignmentSelection			PLURAL:Planar Mentor Alignment Selections			DISPLAYLOCATION:Feats
 
 ###Block: Companion Abilities
 #Elemental Familiar has specific elemental subtype which determines other abilities.
-ABILITYCATEGORY:Elemental Familiar Subtype Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:ElementalFamiliarSubtypeSelection		PLURAL:Elemental Familiar Subtype Selections	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Elemental Familiar Subtype Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:ElementalFamiliarSubtypeSelection		PLURAL:Elemental Familiar Subtype Selections		DISPLAYLOCATION:Class Features
+#Air Elemental Familiar choice between maneuverability and bonus fly speed
+ABILITYCATEGORY:Air Elemental Manifestation Fly Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:AirElementalManifestationFlySelection	PLURAL:Air Elemental Manifestation Fly Selections	DISPLAYLOCATION:Class Features

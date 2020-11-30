@@ -1,0 +1,5 @@
+#Original Entry by pokemonpasta
+SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
+
+#.MOD to set up kits for Well-Provisioned Adventurer Trait
+CATEGORY=Special Ability|Trait ~ Well-Provisioned Adventurer.MOD			KIT:1|Blessed Warden Package (Trait)|Corporeal Warrior Package (Trait)|Planar Traveler Package (Trait)

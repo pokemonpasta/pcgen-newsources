@@ -37,4 +37,5 @@ SKILL:phh_skills.lst
 SPELL:phh_spells.lst
 
 #Support
+ABILITY:support/phh_abilities_aa2.lst|PRECAMPAIGN:1,INCLUDES=Adventurer's Armory 2
 KIT:support/phh_kits_aa2.lst|PRECAMPAIGN:1,INCLUDES=Adventurer's Armory 2

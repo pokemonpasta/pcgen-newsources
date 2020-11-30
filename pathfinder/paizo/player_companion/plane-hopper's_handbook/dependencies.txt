@@ -9,6 +9,9 @@ Advanced Player's Guide (Witch Hex, Antipaladin Touch of Corruption)
 Bestiary 2 (Ifrit/Oread/Sylph/Undine)
 Ultimate Magic (Magus Aphorite FCB, Sacred Summons PREABILITY for Summoning Feats)
 Ultimate Intrigue (Vigilante Duskwalker FCB, Conditional Favor Spell)
+Ultimate Equipment (Some equipment in phh_kits.lst)
+
+SUPPORT DEPENDENCIES
 Advanced Armory 2 (Equipment Packages)
 
 DEPENDENCIES THAT HAVEN'T BEEN WRITTEN

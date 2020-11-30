@@ -19,14 +19,14 @@ GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
 GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
-GEAR:Rope 		(Silk/	50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Spell Component Pouch				QTY:1		SIZE:PC			LOCATION:Carried
 GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
 GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Holy Symbol						QTY:1		SIZE:PC			LOCATION:Equipped
 FUNDS:gp	QTY:13
 
-STARTPACK:Blessed Warden Package	TYPE:Adventuring Kit	APPLY:INSTANT
+STARTPACK:Blessed Warden Package		TYPE:Adventuring Kit	APPLY:INSTANT
 GEAR:Chain Shirt						QTY:1		SIZE:PC			LOCATION:Equipped			EQMOD:Special Quality ~ Masterwork ~ Armor
 GEAR:Shortspear							QTY:1		SIZE:PC			LOCATION:Primary Hand		EQMOD:Material ~ Cold Iron
 GEAR:Crossbow (Light)					QTY:1		SIZE:PC			LOCATION:Carried
@@ -44,7 +44,7 @@ GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
 GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
-GEAR:Rope 		(Silk/	50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Spell Component Pouch				QTY:1		SIZE:PC			LOCATION:Carried
 GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
 GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
@@ -52,12 +52,88 @@ GEAR:Holy Symbol						QTY:1		SIZE:PC			LOCATION:Equipped
 FUNDS:gp	QTY:13
 
 
-
 STARTPACK:Corporeal Warrior Package (Trait)
+GEAR:Breastplate						QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Crossbow (Heavy)					QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bolt (Crossbow)					QTY:10		SIZE:PC			LOCATION:Carried
+GEAR:Mace (Heavy)						QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Longsword							QTY:1		SIZE:PC			LOCATION:Primary Hand	EQMOD:Special Quality ~ Masterwork ~ Weapon
+GEAR:Alchemist's Fire (Flask)			QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Potion of Mage Armor				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Shield					QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Oil of Magic Weapon				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+FUNDS:gp	QTY:10
 
-
-
+STARTPACK:Corporeal Warrior Package		TYPE:Adventuring Kit	APPLY:INSTANT
+GEAR:Breastplate						QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Crossbow (Heavy)					QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bolt (Crossbow)					QTY:10		SIZE:PC			LOCATION:Carried
+GEAR:Mace (Heavy)						QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Longsword							QTY:1		SIZE:PC			LOCATION:Primary Hand	EQMOD:Special Quality ~ Masterwork ~ Weapon
+GEAR:Alchemist's Fire (Flask)			QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Potion of Mage Armor				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Shield					QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Oil of Magic Weapon				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+FUNDS:gp	QTY:10
 
 STARTPACK:Planar Traveler Package (Trait)
+GEAR:Studded Leather					QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Shield (Light/Wooden)				QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Alchemist's Fire (Flask)			QTY:3		SIZE:PC			LOCATION:Carried
+GEAR:Potion of Air Bubble				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Cure Light Wounds		QTY:2		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Endure Elements			QTY:2		SIZE:PC			LOCATION:Backpack
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+FUNDS:gp	QTY:11
 
-GEAR:Shield (Light/Wooden)		QTY:1		SIZE:PC			LOCATION:Equipped
+STARTPACK:Planar Traveler Package		TYPE:Adventuring Kit	APPLY:INSTANT
+GEAR:Studded Leather					QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
+GEAR:Shield (Light/Wooden)				QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Alchemist's Fire (Flask)			QTY:3		SIZE:PC			LOCATION:Carried
+GEAR:Potion of Air Bubble				QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Cure Light Wounds		QTY:2		SIZE:PC			LOCATION:Backpack
+GEAR:Potion of Endure Elements			QTY:2		SIZE:PC			LOCATION:Backpack
+GEAR:Backpack							QTY:1		SIZE:PC			LOCATION:Carried
+GEAR:Bedroll							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Candle								QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Chalk (1 Piece)					QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Crowbar							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Ioun Torch							QTY:1		SIZE:PC			LOCATION:Equipped
+GEAR:Mess Kit							QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Shovel								QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rope 		(Silk/50 ft)			QTY:1		SIZE:PC			LOCATION:Backpack
+GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
+GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
+FUNDS:gp	QTY:11

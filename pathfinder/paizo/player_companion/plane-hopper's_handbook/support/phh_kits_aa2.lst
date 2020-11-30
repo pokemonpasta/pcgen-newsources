@@ -1,7 +1,7 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
-STARTPACK:Blessed Warden Package		TYPE:Adventuring Kit	APPLY:INSTANT
+STARTPACK:Blessed Warden Package (Trait)	TYPE:Adventuring Kit	EQUIPBUY:0	PREABILITY:1,CATEGORY=Special Ability,Trait ~ Well-Provisioned Adventurer
 GEAR:Chain Shirt						QTY:1		SIZE:PC			LOCATION:Equipped			EQMOD:Special Quality ~ Masterwork ~ Armor
 GEAR:Shortspear							QTY:1		SIZE:PC			LOCATION:Primary Hand		EQMOD:Material ~ Cold Iron
 GEAR:Crossbow (Light)					QTY:1		SIZE:PC			LOCATION:Carried
@@ -26,7 +26,7 @@ GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
 GEAR:Holy Symbol						QTY:1		SIZE:PC			LOCATION:Equipped
 FUNDS:gp	QTY:13
 
-STARTPACK:Corporeal Warrior Package		TYPE:Adventuring Kit	APPLY:INSTANT
+STARTPACK:Corporeal Warrior Package (Trait)
 GEAR:Breastplate						QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
 GEAR:Crossbow (Heavy)					QTY:1		SIZE:PC			LOCATION:Carried
 GEAR:Bolt (Crossbow)					QTY:10		SIZE:PC			LOCATION:Carried
@@ -49,7 +49,7 @@ GEAR:Rations (Trail/Per Day)			QTY:5		SIZE:PC			LOCATION:Backpack
 GEAR:Waterskin							QTY:1		SIZE:PC			LOCATION:Backpack
 FUNDS:gp	QTY:10
 
-STARTPACK:Planar Traveler Package		TYPE:Adventuring Kit	APPLY:INSTANT
+STARTPACK:Planar Traveler Package (Trait)
 GEAR:Studded Leather					QTY:1		SIZE:PC			LOCATION:Equipped		EQMOD:Special Quality ~ Masterwork ~ Armor
 GEAR:Shield (Light/Wooden)				QTY:1		SIZE:PC			LOCATION:Equipped
 GEAR:Alchemist's Fire (Flask)			QTY:3		SIZE:PC			LOCATION:Carried

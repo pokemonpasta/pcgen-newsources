@@ -5,13 +5,6 @@ SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 Elemental Companion				KEY:Companion Archetype ~ Elemental Companion			CATEGORY:Archetype					TYPE:Archetype.CompanionArchetype.CF_CompanionEvasion.CF_CompanionImprovedEvasion.CF_CompanionMultiattack		PREMULT:1,[PREABILITY:1,CATEGORY=Archetype,Companion Archetype ~ Elemental Companion],[!PREABILITY:1,CATEGORY=Archetype,TYPE.CF_CompanionEvasion,TYPE.CF_CompanionImprovedEvasion,TYPE.CF_CompanionMultiattack]			DESC:The heart of this companion beats with primal energy.										ABILITY:Companion Class Feature|AUTOMATIC|Elemental Companion ~ Elemental Type|PREVARGTEQ:MasterLevel,1			ABILITY:Companion Class Feature|AUTOMATIC|Elemental Companion ~ Lesser Elemental Manifestation|PREVARGTEQ:MasterLevel,2			ABILITY:Companion Class Feature|AUTOMATIC|Elemental Companion ~ Greater Elemental Manifestation|PREVARGTEQ:MasterLevel,9		COST:0			SOURCEPAGE:p.26		ASPECT:Archetype Base Class|Companion
 Elemental Familiar				KEY:Familiar Archetype ~ Elemental Familiar				CATEGORY:Archetype					TYPE:Archetype.FamiliarArchetype.CF_FamiliarImprovedEvasion.CF_FamiliarSpeakwithAnimalsofItsKind				PREMULT:1,[PREABILITY:1,CATEGORY=Archetype,Familiar Archetype ~ Elemental Familiar],[!PREABILITY:1,CATEGORY=Archetype,TYPE.CF_FamiliarImprovedEvasion,TYPE.CF_FamiliarSpeakwithAnimalsofItsKind]						DESC:The raw power of an elemental plane suffuses the body of an elemental familiar.			ABILITY:Familiar Class Feature|AUTOMATIC|Elemental Familiar ~ Elemental Type|PREVARGTEQ:MasterLevel,1			ABILITY:Familiar Class Feature|AUTOMATIC|Elemental Familiar ~ Elemental Manifestation|PREVARGTEQ:MasterLevel,1	ABILITY:Familiar Class Feature|AUTOMATIC|Elemental Familiar ~ Elemental Speech|PREVARGTEQ:MasterLevel,7											COST:0			SOURCEPAGE:p.26		ASPECT:Archetype Base Class|Familiar
 
-###Block: Eidolon Subtypes
-Aeon Eidolon
-Astral Eidolon
-Radiant Eidolon
-Storykin Eidolon
-Void Eidolon
-
 ###Block: Elemental Companion
 Elemental Type							KEY:Elemental Companion ~ Elemental Type							CATEGORY:Special Ability			TYPE:CompanionClassFeatures.ArchetypeAbility.SpecialQuality.Extraordinary					DESC:An elemental companion gains a subtype that matches its element: air, earth, fire, or water.		BONUS:ABILITYPOOL|Elemental Companion Subtype Selection|1			SOURCEPAGE:p.26
 Lesser Elemental Manifestation			KEY:Elemental Companion ~ Lesser Elemental Manifestation			CATEGORY:Special Ability			TYPE:CompanionClassFeatures.ArchetypeAbility.SpecialQuality.Extraordinary					DESC:At 2nd level, an elemental companion gains one or more special abilities based on its element.																			SOURCEPAGE:p.26
@@ -45,5 +38,3 @@ CATEGORY=Special Ability|Elemental Familiar ~ Elemental Speech.MOD					AUTO:LANG
 CATEGORY=Special Ability|Elemental Familiar ~ Elemental Speech.MOD					AUTO:LANG|Auran|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Air
 CATEGORY=Special Ability|Elemental Familiar ~ Elemental Speech.MOD					AUTO:LANG|Ignan|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Fire
 CATEGORY=Special Ability|Elemental Familiar ~ Elemental Speech.MOD					AUTO:LANG|Terran|PREABILITY:1,CATEGORY=Internal,Elemental Familiar Subtype ~ Earth
-
-###Block: Eidolon Subtype Abilities

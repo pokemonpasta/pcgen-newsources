@@ -13,6 +13,7 @@ Ultimate Equipment (Some equipment in phh_kits.lst)
 
 SUPPORT DEPENDENCIES
 Advanced Armory 2 (Equipment Packages)
+Pathfinder Unchained (Unchained Summoner)
 
 DEPENDENCIES THAT HAVEN'T BEEN WRITTEN
 Paths of Prestige (Blackfire Summoning and Retributive Summons)

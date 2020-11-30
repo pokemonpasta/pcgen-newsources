@@ -17,12 +17,18 @@ Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good						CATEGORY:Intern
 Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral					CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2
 Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NE,CN,CE
 
+###Block: Elemental Companion Subtype Selection
+Air								KEY:Elemental Companion Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
+Earth							KEY:Elemental Companion Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
+Fire							KEY:Elemental Companion Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
+Water							KEY:Elemental Companion Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
+
 ###Block: Elemental Familiar Subtype Selection
 Air								KEY:Elemental Familiar Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
 Earth							KEY:Elemental Familiar Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
 Fire							KEY:Elemental Familiar Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
 Water							KEY:Elemental Familiar Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
 
-###Block: Air Elemental Manifestation Fly Selection
+#Air Elemental Manifestation Fly Selection
 Bonus Maneuverability			KEY:Air Elemental Manifestation ~ Bonus Maneuverability			CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:VAR|Maneuverability|1
 Bonus Fly Speed					KEY:Air Elemental Manifestation ~ Bonus Fly Speed				CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:MOVEADD|TYPE.Fly|10

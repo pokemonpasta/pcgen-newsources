@@ -9,9 +9,10 @@ ABILITYCATEGORY:Expanded Oddity Spell Choice				VISIBLE:QUALIFY	EDITABLE:YES	EDI
 #Planar Mentor has specific alignment which determines other abilities.
 ABILITYCATEGORY:Planar Mentor Alignment Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarMentorAlignmentSelection			PLURAL:Planar Mentor Alignment Selections			DISPLAYLOCATION:Feats
 
-###Block: Companion Abilities
+###Block: Companion/Familiar/Eidolon Abilities
 #Elemental Companion and Familiar have specific elemental subtype which determines other abilities.
 ABILITYCATEGORY:Elemental Companion Subtype Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:ElementalCompanionSubtypeSelection		PLURAL:Elemental Companion Subtype Selections		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Elemental Familiar Subtype Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:ElementalFamiliarSubtypeSelection		PLURAL:Elemental Familiar Subtype Selections		DISPLAYLOCATION:Class Features
 #Air Elemental Familiar choice between maneuverability and bonus fly speed
 ABILITYCATEGORY:Air Elemental Manifestation Fly Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:AirElementalManifestationFlySelection	PLURAL:Air Elemental Manifestation Fly Selections	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Aeon Eidolon LVL12 Selection				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:AeonEidolonLVL12Selection				PLURAL:Aeon Eidolon LVL12 Selections				DISPLAYLOCATION:Class Features

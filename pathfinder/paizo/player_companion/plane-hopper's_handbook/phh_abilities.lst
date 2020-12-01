@@ -17,6 +17,10 @@ Chaotic Good					KEY:Planar Mentor Alignment ~ Chaotic Good						CATEGORY:Intern
 Chaotic Neutral					KEY:Planar Mentor Alignment ~ Chaotic Neutral					CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:TN,CG,CN,CE										TEMPBONUS:PC|SKILL|ALL|2
 Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil						CATEGORY:Internal		TYPE:PlanarMentorAlignmentSelection			PREALIGN:NE,CN,CE
 
+###Block: Aeon Eidolon LVL12 Selection
+Emotions						KEY:Aeon ~ LVL12 Emotions										CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
+Time							KEY:Aeon ~ LVL12 Time											CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
+
 ###Block: Elemental Companion Subtype Selection
 Air								KEY:Elemental Companion Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
 Earth							KEY:Elemental Companion Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection

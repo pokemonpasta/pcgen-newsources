@@ -21,6 +21,14 @@ Chaotic Evil					KEY:Planar Mentor Alignment ~ Chaotic Evil						CATEGORY:Intern
 Emotions						KEY:Aeon ~ LVL12 Emotions										CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
 Time							KEY:Aeon ~ LVL12 Time											CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
 
+###Block: Storykin Eidolon Harrow Suit Selection
+Suit of Hammers					KEY:Storykin ~ Suit of Hammers									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitHammers|0		BONUS:VAR|StorykinEidolonSuitHammers|1
+Suit of Shields					KEY:Storykin ~ Suit of Shields									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitShields|0		BONUS:VAR|StorykinEidolonSuitShields|1
+Suit of Books					KEY:Storykin ~ Suit of Books									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitBooks|0		BONUS:VAR|StorykinEidolonSuitBooks|1
+Suit of Keys					KEY:Storykin ~ Suit of Keys										CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitKeys|0		BONUS:VAR|StorykinEidolonSuitKeys|1
+Suit of Crowns					KEY:Storykin ~ Suit of Crowns									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitCrowns|0		BONUS:VAR|StorykinEidolonSuitCrowns|1
+Suit of Stars					KEY:Storykin ~ Suit of Stars									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitStars|0		BONUS:VAR|StorykinEidolonSuitStars|1
+
 ###Block: Elemental Companion Subtype Selection
 Air								KEY:Elemental Companion Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
 Earth							KEY:Elemental Companion Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection

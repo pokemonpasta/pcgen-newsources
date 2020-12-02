@@ -15,4 +15,6 @@ ABILITYCATEGORY:Elemental Companion Subtype Selection		VISIBLE:QUALIFY	EDITABLE:
 ABILITYCATEGORY:Elemental Familiar Subtype Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:ElementalFamiliarSubtypeSelection		PLURAL:Elemental Familiar Subtype Selections		DISPLAYLOCATION:Class Features
 #Air Elemental Familiar choice between maneuverability and bonus fly speed
 ABILITYCATEGORY:Air Elemental Manifestation Fly Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:AirElementalManifestationFlySelection	PLURAL:Air Elemental Manifestation Fly Selections	DISPLAYLOCATION:Class Features
+#Eidolons
 ABILITYCATEGORY:Aeon Eidolon LVL12 Selection				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:AeonEidolonLVL12Selection				PLURAL:Aeon Eidolon LVL12 Selections				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Storykin Eidolon Harrow Suit Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:StorykinEidolonHarrowSuitSelection		PLURAL:Storykin Eidolon Harrow Suit Selections		DISPLAYLOCATION:Class Features

@@ -48,5 +48,5 @@ Fire							KEY:Elemental Familiar Subtype ~ Fire							CATEGORY:Internal		TYPE:E
 Water							KEY:Elemental Familiar Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection		DEFINE:ElementalFamiliarSubtypeWater|0	BONUS:VAR|ElementalFamiliarSubtypeWater|1
 
 #Air Elemental Manifestation Fly Selection
-Bonus Maneuverability			KEY:Air Elemental Manifestation ~ Bonus Maneuverability			CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:VAR|Maneuverability|1
-Bonus Fly Speed					KEY:Air Elemental Manifestation ~ Bonus Fly Speed				CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:MOVEADD|TYPE.Fly|10
+Bonus Maneuverability			KEY:Air Elemental Manifestation ~ Bonus Maneuverability			CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		DEFINE:AirElementalManifestationManeuverability|0		BONUS:VAR|AirElementalManifestationManeuverability|1
+Bonus Fly Speed					KEY:Air Elemental Manifestation ~ Bonus Fly Speed				CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		DEFINE:AirElementalManifestationFlySpeed|0				BONUS:VAR|AirElementalManifestationFlySpeed|1

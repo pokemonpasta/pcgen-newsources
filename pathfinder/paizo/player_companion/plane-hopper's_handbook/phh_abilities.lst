@@ -24,8 +24,8 @@ Fire							KEY:Neutral Planar Mentor ~ Fire								CATEGORY:Internal		TYPE:Neutr
 Sonic							KEY:Neutral Planar Mentor ~ Sonic								CATEGORY:Internal		TYPE:NeutralPlanarMentorEnergySelection			BONUS:VAR|SonicResistanceBonus|TL|PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Neutral,Planar Mentor Alignment ~ Neutral Good,Planar Mentor Alignment ~ True Netural,Planar Mentor Alignment ~ Neutral Evil,Planar Mentor Alignment ~ Chaotic Neutral
 
 ###Block: Aeon Eidolon LVL12 Selection
-Emotions						KEY:Aeon ~ LVL12 Emotions										CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
-Time							KEY:Aeon ~ LVL12 Time											CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection
+Emotions						KEY:Aeon ~ LVL12 Emotions										CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection			DEFINE:AeonEidolonEmotions|0	BONUS:VAR|AeonEidolonEmotions|1
+Time							KEY:Aeon ~ LVL12 Time											CATEGORY:Internal		TYPE:AeonEidolonLVL12Selection			DEFINE:AeonEidolonTime|0		BONUS:VAR|AeonEidolonTime|1
 
 ###Block: Storykin Eidolon Harrow Suit Selection
 Suit of Hammers					KEY:Storykin ~ Suit of Hammers									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitHammers|0		BONUS:VAR|StorykinEidolonSuitHammers|1
@@ -36,16 +36,16 @@ Suit of Crowns					KEY:Storykin ~ Suit of Crowns									CATEGORY:Internal		TYPE
 Suit of Stars					KEY:Storykin ~ Suit of Stars									CATEGORY:Internal		TYPE:StorykinEidolonHarrowSuitSelection		DEFINE:StorykinEidolonSuitStars|0		BONUS:VAR|StorykinEidolonSuitStars|1
 
 ###Block: Elemental Companion Subtype Selection
-Air								KEY:Elemental Companion Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
-Earth							KEY:Elemental Companion Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
-Fire							KEY:Elemental Companion Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
-Water							KEY:Elemental Companion Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection
+Air								KEY:Elemental Companion Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection		DEFINE:ElementalCompanionSubtypeAir|0	BONUS:VAR|ElementalCompanionSubtypeAir|1
+Earth							KEY:Elemental Companion Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection		DEFINE:ElementalCompanionSubtypeEarth|0	BONUS:VAR|ElementalCompanionSubtypeEarth|1
+Fire							KEY:Elemental Companion Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection		DEFINE:ElementalCompanionSubtypeFire|0	BONUS:VAR|ElementalCompanionSubtypeFire|1
+Water							KEY:Elemental Companion Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalCompanionSubtypeSelection		DEFINE:ElementalCompanionSubtypeWater|0	BONUS:VAR|ElementalCompanionSubtypeWater|1
 
 ###Block: Elemental Familiar Subtype Selection
-Air								KEY:Elemental Familiar Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Earth							KEY:Elemental Familiar Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Fire							KEY:Elemental Familiar Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
-Water							KEY:Elemental Familiar Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection
+Air								KEY:Elemental Familiar Subtype ~ Air							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection		DEFINE:ElementalFamiliarSubtypeAir|0	BONUS:VAR|ElementalFamiliarSubtypeAir|1
+Earth							KEY:Elemental Familiar Subtype ~ Earth							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection		DEFINE:ElementalFamiliarSubtypeEarth|0	BONUS:VAR|ElementalFamiliarSubtypeEarth|1
+Fire							KEY:Elemental Familiar Subtype ~ Fire							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection		DEFINE:ElementalFamiliarSubtypeFire|0	BONUS:VAR|ElementalFamiliarSubtypeFire|1
+Water							KEY:Elemental Familiar Subtype ~ Water							CATEGORY:Internal		TYPE:ElementalFamiliarSubtypeSelection		DEFINE:ElementalFamiliarSubtypeWater|0	BONUS:VAR|ElementalFamiliarSubtypeWater|1
 
 #Air Elemental Manifestation Fly Selection
 Bonus Maneuverability			KEY:Air Elemental Manifestation ~ Bonus Maneuverability			CATEGORY:Internal		TYPE:AirElementalManifestationFlySelection		BONUS:VAR|Maneuverability|1

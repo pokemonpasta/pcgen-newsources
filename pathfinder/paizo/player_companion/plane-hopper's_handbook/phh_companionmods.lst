@@ -2,6 +2,6 @@
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
 #Duskwalker Spiritualist FCB
-FOLLOWER:PhantomMasterLVL=1				TYPE:Phantom				BONUS:MOVEADD|TYPE.Walk|floor(DuskwalkerSpiritualistFCB/5)*5
+FOLLOWER:PhantomMasterLVL=1				TYPE:Phantom				BONUS:MOVEADD|TYPE.Walk|floor(mastervar("DuskwalkerSpiritualistFCB")/5)*5
 #Ganzi Hunter FCB
-FOLLOWER:HunterAnimalCompanionLVL=1		TYPE:Animal Companion		BONUS:SITUATION|Acrobatics=Not on Material Plane,Stealth=Not on Material Plane|GanziHunterFCB
+FOLLOWER:HunterAnimalCompanionLVL=1		TYPE:Animal Companion		BONUS:SITUATION|Acrobatics=Not on Material Plane,Stealth=Not on Material Plane|mastervar("GanziHunterFCB")

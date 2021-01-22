@@ -1,0 +1,17 @@
+#Original Entry by pokemonpasta
+SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
+
+CATEGORY=Internal|Default.MOD			DEFINE:SummonerAspectDivertedEvolutionPoints|0
+
+#.MOD of Aspects to track variable
+Aspect ~ 1 point.MOD					BONUS:VAR|SummonerAspectDivertedEvolutionPoints|1
+Aspect ~ 2 points.MOD					BONUS:VAR|SummonerAspectDivertedEvolutionPoints|2			TYPE:.CLEAR|PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,Summoner ~ Aspect],[[PREVAR:<placeholder>,1]
+Greater Aspect ~ 1 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|1
+Greater Aspect ~ 2 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|2
+Greater Aspect ~ 3 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|3
+Greater Aspect ~ 4 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|4
+Greater Aspect ~ 5 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|5
+Greater Aspect ~ 6 points.MOD			BONUS:VAR|SummonerAspectDivertedEvolutionPoints|6
+
+#Summoner Ability from Astral Eidlon LVL16
+CATEGORY=Class|Summoner ~ Standard Class.MOD			BONUS:ABILITYPOOL|Eidolon Evolution|SummonerAspectDivertedEvolutionPoints/2|PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Summoner ~ Aspect],[PREVAR:<placeholder>,1]			ABILITY:Special Ability|AUTOMATIC|Summoner ~ Aspect|PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,Summoner ~ Aspect],[[PREVAR:<placeholder>,1]

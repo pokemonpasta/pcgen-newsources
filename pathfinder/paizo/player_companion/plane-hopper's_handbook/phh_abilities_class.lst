@@ -65,21 +65,3 @@ Infernal Bargain				KEY:Wild Talent ~ Infernal Bargain					CATEGORY:Special Abil
 Shepherd of Souls				KEY:Wild Talent ~ Shepherd of Souls					CATEGORY:Special Ability	TYPE:SpecialQuality.Wild Talent.Infusion Wild Talent.Infusion Wild Talent Universal																PREVARGTEQ:KineticistLVL_Base,7																																																														DESC:Element universal; Type substance infusion; Level 7; Burn 4; Associated Blast any simple; Saving Throw will negates;				DESC:&nl; Those you kill tend to stay dead. When your blast kills a living creature, it helps shepherd the creature’s soul to Purgatory, warding against effects of spells that would attempt to restore the creature to life. Spellcasters attempting to bring the creature back from the dead using raise dead or similar magic must succeed at a caster level check (DC %1) or the spell fails and the material component is wasted.|11+(CL=Kineticist)								SOURCEPAGE:p.8
 Splash of the Styx				KEY:Wild Talent ~ Splash of the Styx				CATEGORY:Special Ability	TYPE:SpecialQuality.Wild Talent.Utility Wild Talent.Utility Wild Talent Water.SpellLike															PREVARGTEQ:KineticistLVL_Water,5																					PREMULT:1,[PRERACE:1,Tiefling],[PREABILITY:1,CATEGORY=Special Ability,]																							DESC:Element water; Type utility (Sp); Level 5; Burn 1; Saving Throw will negates; Spell Resistance yes									DESC:&nl; The waters of the Styx leach energy from souls, washing away even the deepest memories. You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as modify memory, except that it can only eliminate memories.																																																		SOURCEPAGE:p.8
 Turning Blast					KEY:Wild Talent ~ Turning Blast						CATEGORY:Special Ability	TYPE:SpecialQuality.Wild Talent.Infusion Wild Talent.Infusion Wild Talent Void.Infusion Wild Talent Water										PREMULT:1,[PREVARGTEQ:KineticistLVL_Void,4],[PREVARGTEQ:KineticistLVL_Wood,4]										PREMULT:1,[PRERACE:1,Duskwalker],[PREABILITY:1,CATEGORY=Special Ability,]																						DESC:Element void, woodl Type substance infusion; Level 4; Burn 3; Associated Blast positive or negative; Saving Throw will negates		DESC:&nl; Your kinetic blast causes undead creatures to flee in terror. Undead that take damage from a turning blast must succeed at a Will save or flee for 1 round. An undead creature that succeeds at its saving throw against a turning blast is immune to this effect for 24 hours.																																																SOURCEPAGE:p.8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,12 +4,14 @@ SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 ###Block: Racial Abilities
 #Ganzi SLA Oddity has choice between several spells
 ABILITYCATEGORY:Expanded Oddity Spell Choice				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ExpandedOdditySpellChoice				PLURAL:Expanded Oddity Spell Choices				DISPLAYLOCATION:Racial Abilities
+#Shabti Ranger FCB
+ABILITYCATEGORY:Favored Class Shabti Favored Terrain		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:FavoredClassShabtiFavoredTerrain		PLURAL:Favored Class Shabti Favored Terrains		DISPLAYLOCATION:Class Features
+
 
 ###Block: Feats
 #Planar Mentor has specific alignment which determines other abilities.
 ABILITYCATEGORY:Planar Mentor Alignment Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarMentorAlignmentSelection			PLURAL:Planar Mentor Alignment Selections			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Neutral Planar Mentor Energy Selection		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:NeutralPlanarMentorEnergySelection		PLURAL:Neutral Planar Mentor Energy Selections		DISPLAYLOCATION:Feats
-
 
 ###Block: Companion/Familiar/Eidolon Abilities
 #Elemental Companion and Familiar have specific elemental subtype which determines other abilities.

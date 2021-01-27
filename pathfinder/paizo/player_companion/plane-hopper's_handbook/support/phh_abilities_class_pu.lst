@@ -1,7 +1,7 @@
 #Original Entry by pokemonpasta
 SOURCELONG:Plane-Hopper's Handbook		SOURCESHORT:PHH
 
-CATEGORY=Internal|Default.MOD			DEFINE:SummonerAspectDivertedEvolutionPoints|0		DEFINE:AstralEidolonHasLVL16|0
+CATEGORY=Class|Summoner.MOD			DEFINE:SummonerAspectDivertedEvolutionPoints|0		DEFINE:AstralEidolonHasLVL16|0
 
 #.MOD of Aspects to track variable
 Aspect ~ 1 point.MOD					BONUS:VAR|SummonerAspectDivertedEvolutionPoints|1

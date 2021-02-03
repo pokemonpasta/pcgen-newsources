@@ -89,11 +89,4 @@ CATEGORY=FEAT|Greater Planar Mentor.MOD		SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Ho
 CATEGORY=FEAT|Greater Planar Mentor.MOD		SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Dictum|PREMULT:2,[PREVAREQ:ImprovedPlanarMentorHasSLA,1],[PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Good,Planar Mentor Alignment ~ Lawful Neutral,Planar Mentor Alignment ~ Lawful Evil]
 CATEGORY=FEAT|Greater Planar Mentor.MOD		SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Slay Living|PREMULT:2,[PREVAREQ:ImprovedPlanarMentorHasSLA,1],[PREABILITY:1,CATEGORY=Internal,Planar Mentor Alignment ~ Lawful Neutral,Planar Mentor Alignment ~ Neutral Good,Planar Mentor Alignment ~ True Netural,Planar Mentor Alignment ~ Neutral Evil,Planar Mentor Alignment ~ Chaotic Neutral]
 #Greater Planar Ally
-CATEGORY=FEAT|Greater Planar Mentor.MOD		SPELLS:Innate|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=TL|Greater Planar Ally|PREVAREQ:ImprovedPlanarMentorHasSLA,1
-
-
-
-
-
-
-
+CATEGORY=FEAT|Greater Planar Mentor.MOD		SPELLS:Innate|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=TL|Planar Ally (Greater)|PREVAREQ:ImprovedPlanarMentorHasSLA,1

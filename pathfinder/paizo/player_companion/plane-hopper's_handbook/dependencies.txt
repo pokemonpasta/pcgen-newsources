@@ -12,7 +12,7 @@ Ultimate Intrigue (Vigilante Duskwalker FCB, Conditional Favor Spell)
 Ultimate Equipment (Some equipment in phh_kits.lst)
 
 SUPPORT DEPENDENCIES
-Advanced Armory 2 (Equipment Packages)
+Adventurer's Armory 2 (Equipment Packages)
 Pathfinder Unchained (Unchained Summoner)
 
 DEPENDENCIES THAT HAVEN'T BEEN WRITTEN

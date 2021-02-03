@@ -74,5 +74,21 @@ Eidolon Progession Lv.8		KEY:Void ~ Unchained Eidolon LVL08		CATEGORY:Special Ab
 Eidolon Progession Lv.12	KEY:Void ~ Unchained Eidolon LVL12		CATEGORY:Special Ability	TYPE:SpecialQuality.VoidLVL12													SOURCEPAGE:p.25		DESC:At 12th level, void eidolons gain the lifesense ability. They also gain the energy drain ability (1 negative level) with their bite attacks, though they can drain only a total of %1 levels per day.|floor(TL/2)			ABILITY:Special Ability|AUTOMATIC|Lifesense|Energy Drain		BONUS:VAR|EnergyDrainLevels|1
 Eidolon Progession Lv.16	KEY:Void ~ Unchained Eidolon LVL16		CATEGORY:Special Ability	TYPE:SpecialQuality.VoidLVL16													SOURCEPAGE:p.25		DESC:At 16th level, void eidolons lose the resistance (cold) evolution and instead gain the immunity (cold) evolution.	DESC:They also gain DR 5/adamantine.|!PREABILITY:1,CATEGORY=Special Ability,Void ~ Unchained Eidolon LVL20						ABILITY:Special Ability|AUTOMATIC|Unchained Evolution ~ Immunity
 Eidolon Progession Lv.20	KEY:Void ~ Unchained Eidolon LVL20		CATEGORY:Special Ability	TYPE:SpecialQuality.VoidLVL20													SOURCEPAGE:p.25		DESC:At 20th level, void eidolons can bestow up to 2 negative levels with a successful bite attack, and the number of negative levels they can bestow per day increases by %1. Their damage reduction increases to DR 10/adamantine.|CON
-#L8 .MOD
-CATEGORY=Special Ability|Unchained Evolution ~ Energy Attacks.MOD		CHOOSE:STRING|negative energy|PREABILITY:1,CATEGORY=Special Ability,Void ~ Unchained Eidolon LVL08
+#PU .MOD Remove PU ability from possible selections
+CATEGORY=Special Ability|Unchained Evolution ~ Energy Attacks.MOD		TYPE:.CLEAR
+#And define new Energy Attacks ability to allow for negative energy attacks selection
+Energy Attacks				KEY:PHH Unchained Evolution ~ Energy Attacks			CATEGORY:Special Ability	TYPE:Unchained Evolution.SpecialQuality.Supernatural			PRETEXT:Requirements: Summoner level 5th.	PREVARGTEQ:MasterLevel,5		DESC:The eidolon's attacks become charged with energy. Select one energy type: acid, cold, electricity,	DESC:negative energy,|PREABILITY:1,CATEGORY=Special Ability,Void ~ Unchained Eidolon LVL08	DESC:or fire. All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen type on a successful hit.				STACK:NO	MULT:YES	CHOOSE:NOCHOICE		BONUS:ABILITYPOOL|Eidolon Energy Attacks Selection|1		COST:2	SOURCEPAGE:p.36
+#Energy Attacks Selections
+Acid						KEY:Eidolon Energy Attacks ~ Acid					CATEGORY:Internal	TYPE:EidolonEnergyAttacksSelection
+Cold						KEY:Eidolon Energy Attacks ~ Cold					CATEGORY:Internal	TYPE:EidolonEnergyAttacksSelection
+Electricity					KEY:Eidolon Energy Attacks ~ Electricity			CATEGORY:Internal	TYPE:EidolonEnergyAttacksSelection
+Fire						KEY:Eidolon Energy Attacks ~ Fire					CATEGORY:Internal	TYPE:EidolonEnergyAttacksSelection
+Negative Energy				KEY:Eidolon Energy Attacks ~ Negative Energy		CATEGORY:Internal	TYPE:EidolonEnergyAttacksSelection		PREABILITY:1,CATEGORY=Special Ability,Void ~ Unchained Eidolon LVL08
+#.MOD PHH Energy Attacks for different ASPECT tags depending on ability selection
+CATEGORY=Special Ability|PHH Unchained Evolution ~ Energy Attacks				ASPECT:CombatBonus|All of the eidolon's natural attacks deal 1d6 points of acid damage on a successful hit.|PREABILITY:1,CATEGORY=Internal,Eidolon Energy Attacks ~ Acid
+CATEGORY=Special Ability|PHH Unchained Evolution ~ Energy Attacks				ASPECT:CombatBonus|All of the eidolon's natural attacks deal 1d6 points of cold damage on a successful hit.|PREABILITY:1,CATEGORY=Internal,Eidolon Energy Attacks ~ Cold
+CATEGORY=Special Ability|PHH Unchained Evolution ~ Energy Attacks				ASPECT:CombatBonus|All of the eidolon's natural attacks deal 1d6 points of electricity damage on a successful hit.|PREABILITY:1,CATEGORY=Internal,Eidolon Energy Attacks ~ Electricity
+CATEGORY=Special Ability|PHH Unchained Evolution ~ Energy Attacks				ASPECT:CombatBonus|All of the eidolon's natural attacks deal 1d6 points of fire damage on a successful hit.|PREABILITY:1,CATEGORY=Internal,Eidolon Energy Attacks ~ Fire
+CATEGORY=Special Ability|PHH Unchained Evolution ~ Energy Attacks				ASPECT:CombatBonus|All of the eidolon's natural attacks deal 1d6 points of negative energy damage on a successful hit.|PREABILITY:1,CATEGORY=Internal,Eidolon Energy Attacks ~ Negative Energy
+#Original .MOD
+#CATEGORY=Special Ability|Unchained Evolution ~ Energy Attacks.MOD		CHOOSE:STRING|negative energy|PREABILITY:1,CATEGORY=Special Ability,Void ~ Unchained Eidolon LVL08
